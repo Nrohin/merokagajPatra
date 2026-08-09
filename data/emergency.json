@@ -1,0 +1,132 @@
+[
+  {
+    "id": "police",
+    "name": {
+      "en": "Nepal Police",
+      "ne": "नेपाल प्रहरी"
+    },
+    "number": "100",
+    "icon": "local_police",
+    "description": {
+      "en": "For crimes, emergencies, and general police assistance",
+      "ne": "अपराध, आपतकाल, र सामान्य प्रहरी सहायताका लागि"
+    }
+  },
+  {
+    "id": "ambulance",
+    "name": {
+      "en": "Ambulance",
+      "ne": "एम्बुलेन्स"
+    },
+    "number": "102",
+    "icon": "medical_services",
+    "description": {
+      "en": "Emergency medical transport",
+      "ne": "आपतकालीन चिकित्सा यातायात"
+    }
+  },
+  {
+    "id": "fire",
+    "name": {
+      "en": "Fire Brigade",
+      "ne": "अग्निशमन"
+    },
+    "number": "101",
+    "icon": "local_fire_department",
+    "description": {
+      "en": "Fire emergencies and rescue",
+      "ne": "आगलागी आपतकाल र उद्धार"
+    }
+  },
+  {
+    "id": "tourist-police",
+    "name": {
+      "en": "Tourist Police",
+      "ne": "पर्यटक प्रहरी"
+    },
+    "number": "1144",
+    "icon": "travel_explore",
+    "description": {
+      "en": "Assistance for tourists and foreigners",
+      "ne": "पर्यटक र विदेशीहरूका लागि सहायता"
+    }
+  },
+  {
+    "id": "himalaya-rescue",
+    "name": {
+      "en": "Himalayan Rescue Association",
+      "ne": "हिमालय रेस्क्यू एसोसिएसन"
+    },
+    "number": "01-4700525",
+    "icon": "emergency",
+    "description": {
+      "en": "Mountain rescue and altitude sickness help",
+      "ne": "हिमालय उद्धार र उचाइ रोग सहायता"
+    }
+  },
+  {
+    "id": "nrc",
+    "name": {
+      "en": "National Reconstruction Authority",
+      "ne": "राष्ट्रिय पुनर्निर्माण प्राधिकरण"
+    },
+    "number": "01-4211222",
+    "icon": "construction",
+    "description": {
+      "en": "Disaster reconstruction assistance",
+      "ne": "विपद्को पुनर्निर्माण सहायता"
+    }
+  },
+  {
+    "id": "women-commission",
+    "name": {
+      "en": "Women Commission",
+      "ne": "महिला आयोग"
+    },
+    "number": "01-4211166",
+    "icon": "woman",
+    "description": {
+      "en": "Women's rights and safety helpline",
+      "ne": "महिला अधिकार र सुरक्षा हेल्पलाइन"
+    }
+  },
+  {
+    "id": "child-helpline",
+    "name": {
+      "en": "Child Helpline",
+      "ne": "बाल हेल्पलाइन"
+    },
+    "number": "1098",
+    "icon": "child_care",
+    "description": {
+      "en": "Child safety and protection",
+      "ne": "बाल सुरक्षा र संरक्षण"
+    }
+  },
+  {
+    "id": "ntc",
+    "name": {
+      "en": "NTC Customer Service",
+      "ne": "NTC ग्राहक सेवा"
+    },
+    "number": "1498",
+    "icon": "call",
+    "description": {
+      "en": "Nepal Telecom customer support",
+      "ne": "नेपाल टेलिकम ग्राहक सहयोग"
+    }
+  },
+  {
+    "id": "nepal-gov",
+    "name": {
+      "en": "Nepal Government Helpline",
+      "ne": "नेपाल सरकार हेल्पलाइन"
+    },
+    "number": "1166",
+    "icon": "help",
+    "description": {
+      "en": "General government information",
+      "ne": "सामान्य सरकारी जानकारी"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  { "serviceId": "citizenship-by-descent", "id": "form-citizenship", "name": { "en": "Citizenship Application Form", "ne": "नागरिकता आवेदन फारम" }, "format": "pdf", "url": "https://www.doi.gov.np" },
+  { "serviceId": "passport", "id": "form-passport", "name": { "en": "Passport Application Form", "ne": "पासपोर्ट आवेदन फारम" }, "format": "pdf", "url": "https://www.doi.gov.np" },
+  { "serviceId": "driving-license", "id": "form-driving", "name": { "en": "Driving License Application Form", "ne": "चालक परमिट आवेदन फारम" }, "format": "pdf", "url": "https://www.dovta.gov.np" },
+  { "serviceId": "birth-registration", "id": "form-birth", "name": { "en": "Birth Registration Form", "ne": "जन्म दर्ता फारम" }, "format": "pdf", "url": "" },
+  { "serviceId": "marriage-registration", "id": "form-marriage", "name": { "en": "Marriage Registration Form", "ne": "विवाह दर्ता फारम" }, "format": "pdf", "url": "" },
+  { "serviceId": "land-new-registration", "id": "form-land", "name": { "en": "Land Transfer Application", "ne": "जग्गा हस्तान्तरण आवेदन" }, "format": "pdf", "url": "" },
+  { "serviceId": "company-reg", "id": "form-business", "name": { "en": "Company Registration Form (MOA/AOA)", "ne": "कम्पनी दर्ता फारम (MOA/AOA)" }, "format": "pdf", "url": "https://www.ocr.gov.np" },
+  { "serviceId": "pan-reg", "id": "form-pan", "name": { "en": "PAN Registration Form", "ne": "PAN दर्ता फारम" }, "format": "pdf", "url": "https://www.ird.gov.np" }
+]

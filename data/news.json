@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": { "en": "NID Card Distribution Accelerated Across Nepal", "ne": "राष्ट्रिय पहिचानपत्र वितरण नेपालभर गति बढाइयो" },
+    "summary": { "en": "The government has accelerated the distribution of National Identity Cards with targets to reach all eligible citizens by 2026.", "ne": "सरकारले २०२६ सम्ममा सबै पात्र नागरिकसम्म पुर्‍याउने लक्ष्यमा राष्ट्रिय पहिचानपत्र वितरण गति बढाएको छ।" },
+    "body": { "en": "Citizens are encouraged to register online at the NIMS portal and visit the nearest enrollment center for biometric capture.", "ne": "नागरिकहरूलाई NIMS पोर्टलमा अनलाइन दर्ता गर्न र बायोमेट्रिक दर्ताका लागि नजिकको नामांकन केन्द्रमा जान प्रोत्साहित गरिएको छ।" },
+    "date": "2025-03-15",
+    "category": "Update",
+    "source": "https://www.doi.gov.np"
+  },
+  {
+    "id": 2,
+    "title": { "en": "Driving License Renewal Now Available Online", "ne": "चालक परमिट नवीकरण अब अनलाइन उपलब्ध" },
+    "summary": { "en": "DOTM has launched an online system for driving license renewal, reducing the need for in-person office visits.", "ne": "DOTM ले चालक परमिट नवीकरणको लागि अनलाइन प्रणाली सुरु गरेको छ, जसले कार्यालय भ्रमणको आवश्यकता घटाउँछ।" },
+    "body": { "en": "License holders can now renew online through the DOTM portal. The process includes online payment and office visit only for biometric verification.", "ne": "परमिट धारकहरू अब DOTM पोर्टलमार्फत अनलाइन नवीकरण गर्न सक्छन्। प्रक्रियामा अनलाइन भुक्तानी र बायोमेट्रिक प्रमाणीकरणका लागि मात्र कार्यायलय भ्रमण समावेश छ।" },
+    "date": "2025-02-20",
+    "category": "Service Update",
+    "source": "https://www.dovta.gov.np"
+  },
+  {
+    "id": 3,
+    "title": { "en": "Online Portal for Birth Registration in All Municipalities", "ne": "सबै नगरपालिकामा जन्म दर्ताको अनलाइन पोर्टल" },
+    "summary": { "en": "The Department of Civil Registration has expanded the online birth registration portal to cover all municipalities across Nepal.", "ne": "नागरिक दर्ता विभागले नेपालभरका सबै नगरपालिकालाई समेट्न जन्म दर्ताको अनलाइन पोर्टल विस्तार गरेको छ।" },
+    "body": { "en": "Parents can now pre-register births online, reducing processing time at ward offices.", "ne": "अभिभावकहरूले अब अनलाइनमा जन्म पूर्व-दर्ता गर्न सक्छन्, जसले वडा कार्यालयमा प्रशोधन समय घटाउँछ।" },
+    "date": "2025-01-10",
+    "category": "New Feature",
+    "source": "https://www.dcr.gov.np"
+  }
+]

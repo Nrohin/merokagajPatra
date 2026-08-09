@@ -1,0 +1,272 @@
+[
+  {
+    "serviceId": "citizenship-by-descent",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 5,
+    "note": {
+      "en": "Usually issued within a day when all documents are complete",
+      "ne": "सबै कागजात पूरा भएमा सामान्यतया एक दिनभित्र जारी हुन्छ"
+    }
+  },
+  {
+    "serviceId": "citizenship-duplicate",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 5,
+    "note": {
+      "en": "Usually same day if verification is complete",
+      "ne": "प्रमाणीकरण पूरा भएमा सामान्यतया उही दिन"
+    }
+  },
+  {
+    "serviceId": "death-registration",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if verification needed",
+      "ne": "पूरा भएमा सोही दिन; प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "passport",
+    "standardDays": 10,
+    "expressDays": 3,
+    "maxDays": 15,
+    "note": {
+      "en": "Express service available at select offices",
+      "ne": "निश्चित कार्यालयहरूमा एक्सप्रेस सेवा उपलब्ध"
+    }
+  },
+  {
+    "serviceId": "driving-license",
+    "standardDays": 7,
+    "expressDays": null,
+    "maxDays": 21,
+    "note": {
+      "en": "Depends on test schedule",
+      "ne": "परीक्षा तालिकामा निर्भर"
+    }
+  },
+  {
+    "serviceId": "birth-registration",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if verification needed",
+      "ne": "पूरा भएमा सोही दिन; प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "marriage-registration",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if verification needed",
+      "ne": "पूरा भएमा सोही दिन; प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "land-new-registration",
+    "standardDays": 15,
+    "expressDays": null,
+    "maxDays": 30,
+    "note": {
+      "en": "Can take longer for disputed properties",
+      "ne": "विवादित सम्पत्तिमा बढी समय लाग्न सक्छ"
+    }
+  },
+  {
+    "serviceId": "company-reg",
+    "standardDays": 7,
+    "expressDays": 3,
+    "maxDays": 14,
+    "note": {
+      "en": "",
+      "ne": ""
+    }
+  },
+  {
+    "serviceId": "pan-reg",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 1,
+    "note": {
+      "en": "Usually issued same day",
+      "ne": "सामान्यतया उही दिन जारी"
+    }
+  },
+  {
+    "serviceId": "national-id",
+    "standardDays": 15,
+    "expressDays": null,
+    "maxDays": 30,
+    "note": {
+      "en": "",
+      "ne": ""
+    }
+  },
+  {
+    "serviceId": "social-security",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 3,
+    "note": {
+      "en": "Online registration is instant",
+      "ne": "अनलाइन दर्ता तत्काल हुन्छ"
+    }
+  },
+  {
+    "serviceId": "divorce-registration",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if verification needed",
+      "ne": "पूरा भएमा सोही दिन; प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "relationship-verification",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if verification needed",
+      "ne": "पूरा भएमा सोही दिन; प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "family-member-cert",
+    "standardDays": 3,
+    "expressDays": null,
+    "maxDays": 7,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "migration-registration",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if verification needed",
+      "ne": "पूरा भएमा सोही दिन; प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "permanent-residence",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if field verification needed",
+      "ne": "पूरा भएमा सोही दिन; स्थलगत प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "temporary-residence",
+    "standardDays": 1,
+    "expressDays": null,
+    "maxDays": 35,
+    "note": {
+      "en": "Same day if complete; up to 35 days if field verification needed",
+      "ne": "पूरा भएमा सोही दिन; स्थलगत प्रमाणीकरण आवश्यक भएमा ३५ दिनसम्म"
+    }
+  },
+  {
+    "serviceId": "single-woman-cert",
+    "standardDays": 3,
+    "expressDays": null,
+    "maxDays": 7,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "widow-widower-cert",
+    "standardDays": 3,
+    "expressDays": null,
+    "maxDays": 7,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "senior-citizen-id",
+    "standardDays": 7,
+    "expressDays": null,
+    "maxDays": 14,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "minor-identity-cert",
+    "standardDays": 3,
+    "expressDays": null,
+    "maxDays": 7,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "disability-id",
+    "standardDays": 7,
+    "expressDays": null,
+    "maxDays": 14,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "social-security-beneficiary",
+    "standardDays": 7,
+    "expressDays": null,
+    "maxDays": 14,
+    "note": {
+      "en": "Needs Verification",
+      "ne": "आधिकारिक स्रोतबाट पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "naturalized-marriage",
+    "standardDays": null,
+    "expressDays": null,
+    "maxDays": 7,
+    "note": {
+      "en": "Not fixed",
+      "ne": "निश्चित समय तोकिएको छैन"
+    }
+  },
+  {
+    "serviceId": "naturalized-child",
+    "standardDays": null,
+    "expressDays": null,
+    "maxDays": 180,
+    "note": {
+      "en": "Not fixed",
+      "ne": "निश्चित समय तोकिएको छैन"
+    }
+  },
+  {
+    "serviceId": "naturalized-parents-child",
+    "standardDays": null,
+    "expressDays": null,
+    "maxDays": 180,
+    "note": {
+      "en": "Not fixed",
+      "ne": "निश्चित समय तोकिएको छैन"
+    }
+  }
+]

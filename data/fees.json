@@ -1,0 +1,242 @@
+[
+  {
+    "serviceId": "citizenship-by-descent",
+    "type": {
+      "en": "Revenue Stamp",
+      "ne": "राजस्व टिकट"
+    },
+    "amount": 10,
+    "note": {
+      "en": "Revenue stamp only — confirm the amount with the DAO",
+      "ne": "राजस्व टिकट मात्र — रकम जिल्ला प्रशासन कार्यालयसँग पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "passport",
+    "type": {
+      "en": "Normal Passport (34 pages)",
+      "ne": "सामान्य पासपोर्ट (३४ पृष्ठ)"
+    },
+    "amount": 5000,
+    "note": {
+      "en": "10-15 working days",
+      "ne": "१०-१५ कार्य दिन"
+    }
+  },
+  {
+    "serviceId": "passport",
+    "type": {
+      "en": "Normal Passport (66 pages)",
+      "ne": "सामान्य पासपोर्ट (६६ पृष्ठ)"
+    },
+    "amount": 10000,
+    "note": {
+      "en": "10-15 working days",
+      "ne": "१०-१५ कार्य दिन"
+    }
+  },
+  {
+    "serviceId": "passport",
+    "type": {
+      "en": "Express Passport (34 pages)",
+      "ne": "एक्सप्रेस पासपोर्ट (३४ पृष्ठ)"
+    },
+    "amount": 10000,
+    "note": {
+      "en": "3-5 working days",
+      "ne": "३-५ कार्य दिन"
+    }
+  },
+  {
+    "serviceId": "driving-license",
+    "type": {
+      "en": "Written Exam Fee",
+      "ne": "लिखित परीक्षा शुल्क"
+    },
+    "amount": 500,
+    "note": {
+      "en": "Per category",
+      "ne": "प्रति श्रेणी"
+    }
+  },
+  {
+    "serviceId": "driving-license",
+    "type": {
+      "en": "Practical Test Fee",
+      "ne": "व्यावहारिक परीक्षा शुल्क"
+    },
+    "amount": 1000,
+    "note": {
+      "en": "Per category",
+      "ne": "प्रति श्रेणी"
+    }
+  },
+  {
+    "serviceId": "driving-license",
+    "type": {
+      "en": "License Card Fee",
+      "ne": "परमिट कार्ड शुल्क"
+    },
+    "amount": 1500,
+    "note": {
+      "en": "",
+      "ne": ""
+    }
+  },
+  {
+    "serviceId": "birth-registration",
+    "type": {
+      "en": "Registration Fee",
+      "ne": "दर्ता शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "Free if registered within 35 days of birth. After the prescribed time limit, the applicable government fee will be charged as per prevailing laws.",
+      "ne": "जन्म भएको ३५ दिनभित्र जन्म दर्ता गरेमा निःशुल्क हुन्छ। निर्धारित म्याद नाघेपछि नेपाल सरकारको प्रचलित नियमअनुसार तोकिएको शुल्क लाग्नेछ।"
+    }
+  },
+  {
+    "serviceId": "marriage-registration",
+    "type": {
+      "en": "Marriage Registration Fee",
+      "ne": "विवाह दर्ता शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "As per government fee",
+      "ne": "सरकारले तोकेको शुल्क अनुसार"
+    }
+  },
+  {
+    "serviceId": "land-new-registration",
+    "type": {
+      "en": "Registration Fee",
+      "ne": "दर्ता शुल्क"
+    },
+    "amount": 5000,
+    "note": {
+      "en": "Varies by land value",
+      "ne": "जग्गा मूल्यअनुसार फरक हुन्छ"
+    }
+  },
+  {
+    "serviceId": "land-new-registration",
+    "type": {
+      "en": "Capital Gains Tax",
+      "ne": "पूँजीगत लाभ कर"
+    },
+    "amount": 0,
+    "note": {
+      "en": "Calculated based on land value difference",
+      "ne": "जग्गा मूल्य भिन्नतामा आधारित"
+    }
+  },
+  {
+    "serviceId": "company-reg",
+    "type": {
+      "en": "Company Registration Fee",
+      "ne": "कम्पनी दर्ता शुल्क"
+    },
+    "amount": 10000,
+    "note": {
+      "en": "For private limited",
+      "ne": "प्राइभेट लिमिटेडका लागि"
+    }
+  },
+  {
+    "serviceId": "pan-reg",
+    "type": {
+      "en": "PAN Registration Fee",
+      "ne": "PAN दर्ता शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "Free of charge",
+      "ne": "निःशुल्क"
+    }
+  },
+  {
+    "serviceId": "national-id",
+    "type": {
+      "en": "NID Card Fee",
+      "ne": "NID कार्ड शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "Free of charge",
+      "ne": "निःशुल्क"
+    }
+  },
+  {
+    "serviceId": "social-security",
+    "type": {
+      "en": "Monthly Contribution (Employee)",
+      "ne": "मासिक योगदान (कर्मचारी)"
+    },
+    "amount": 0,
+    "note": {
+      "en": "11% of basic salary",
+      "ne": "आधार तलबको ११%"
+    }
+  },
+  {
+    "serviceId": "social-security",
+    "type": {
+      "en": "Monthly Contribution (Employer)",
+      "ne": "मासिक योगदान (रोजगारदाता)"
+    },
+    "amount": 0,
+    "note": {
+      "en": "11% of basic salary",
+      "ne": "आधार तलबको ११%"
+    }
+  },
+  {
+    "serviceId": "citizenship-duplicate",
+    "type": {
+      "en": "Government Fee",
+      "ne": "सरकारी शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "As per government fee — verify with DAO",
+      "ne": "सरकारले तोकेको शुल्क अनुसार — DAO सँग पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "naturalized-marriage",
+    "type": {
+      "en": "Postage Stamp",
+      "ne": "हुलाक टिकट"
+    },
+    "amount": 0,
+    "note": {
+      "en": "As per government fee — verify with DAO",
+      "ne": "सरकारले तोकेको शुल्क अनुसार — DAO सँग पुष्टि गर्नुहोस्"
+    }
+  },
+  {
+    "serviceId": "naturalized-child",
+    "type": {
+      "en": "Government Fee",
+      "ne": "सरकारी शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "As per government fee",
+      "ne": "सरकारले तोकेको शुल्क अनुसार"
+    }
+  },
+  {
+    "serviceId": "naturalized-parents-child",
+    "type": {
+      "en": "Government Fee",
+      "ne": "सरकारी शुल्क"
+    },
+    "amount": 0,
+    "note": {
+      "en": "As per government fee",
+      "ne": "सरकारले तोकेको शुल्क अनुसार"
+    }
+  }
+]

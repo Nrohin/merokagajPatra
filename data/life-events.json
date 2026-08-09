@@ -1,0 +1,307 @@
+[
+  {
+    "id": "birth",
+    "name": {
+      "en": "Birth of a Child",
+      "ne": "बालकको जन्म"
+    },
+    "description": {
+      "en": "Register the birth and obtain all necessary documents for your newborn.",
+      "ne": "नवजातको जन्म दर्ता गर्नुहोस् र सबै आवश्यक कागजात प्राप्त गर्नुहोस्।"
+    },
+    "icon": "child_care",
+    "services": [
+      "birth-registration",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Register the birth within 35 days",
+        "ne": "३५ दिनभित्र जन्म दर्ता गर्नुहोस्"
+      },
+      {
+        "en": "Carry the hospital birth record",
+        "ne": "अस्पतालको जन्म रेकर्ड लैजानुहोस्"
+      }
+    ],
+    "keywords": [
+      "baby",
+      "newborn",
+      "birth"
+    ]
+  },
+  {
+    "id": "marriage",
+    "name": {
+      "en": "Getting Married",
+      "ne": "विवाह गर्दै"
+    },
+    "description": {
+      "en": "Register your marriage and update your civil status.",
+      "ne": "विवाह दर्ता गर्नुहोस् र नागरिक स्थिति अपडेट गर्नुहोस्।"
+    },
+    "icon": "favorite",
+    "services": [
+      "marriage-registration",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Get the marriage certificate from the court or ward office",
+        "ne": "अदालत वा वडा कार्यालयबाट विवाह प्रमाणपत्र लिनुहोस्"
+      },
+      {
+        "en": "Update citizenship with spouse's name if needed",
+        "ne": "आवश्यक भएमा नागरिकतामा जीवनसाथीको नाम अपडेट गर्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "wedding",
+      "spouse",
+      "marriage"
+    ]
+  },
+  {
+    "id": "education",
+    "name": {
+      "en": "Starting Education",
+      "ne": "शिक्षा सुरु गर्दै"
+    },
+    "description": {
+      "en": "Documents and procedures for school admission, scholarships, and educational certificates.",
+      "ne": "विद्यालय भर्ना, छात्रवृत्ति, र शैक्षिक प्रमाणपत्रका लागि कागजात र प्रक्रिया।"
+    },
+    "icon": "school",
+    "services": [
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Keep original certificates safe",
+        "ne": "मूल प्रमाणपत्रहरू सुरक्षित राख्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "school",
+      "university",
+      "admission",
+      "scholarship"
+    ]
+  },
+  {
+    "id": "first-job",
+    "name": {
+      "en": "Starting First Job",
+      "ne": "पहिलो रोजगारी सुरु गर्दै"
+    },
+    "description": {
+      "en": "Documents needed for employment: PAN, SSF registration, and labor cards.",
+      "ne": "रोजगारीका लागि आवश्यक कागजात: PAN, SSF दर्ता, र श्रम कार्ड।"
+    },
+    "icon": "work",
+    "services": [
+      "pan-reg",
+      "social-security"
+    ],
+    "tips": [
+      {
+        "en": "Register for PAN before starting work",
+        "ne": "काम सुरु गर्नुअघि PAN दर्ता गर्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "employment",
+      "job",
+      "career",
+      "work"
+    ]
+  },
+  {
+    "id": "buying-property",
+    "name": {
+      "en": "Buying Property",
+      "ne": "जग्गा किन्दै"
+    },
+    "description": {
+      "en": "Steps for purchasing land or property: due diligence, registration, and tax payments.",
+      "ne": "जग्गा वा सम्पत्ति किन्ने चरण: ड्यू डिलिजेन्स, दर्ता, र कर भुक्तानी।"
+    },
+    "icon": "home",
+    "services": [
+      "land-new-registration",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Always verify ownership at the LRO before purchase",
+        "ne": "किन्नुअघि LRO मा स्वामित्व प्रमाणित गर्नुहोस्"
+      },
+      {
+        "en": "Hire a lawyer for due diligence",
+        "ne": "ड्यू डिलिजेन्सका लागि वकिल राख्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "property",
+      "land",
+      "real estate",
+      "house"
+    ]
+  },
+  {
+    "id": "starting-business",
+    "name": {
+      "en": "Starting a Business",
+      "ne": "व्यवसाय सुरु गर्दै"
+    },
+    "description": {
+      "en": "Steps to register a business: company registration, PAN, SSF, and other requirements.",
+      "ne": "व्यवसाय दर्ता गर्ने चरण: कम्पनी दर्ता, PAN, SSF, र अन्य आवश्यकताहरू।"
+    },
+    "icon": "business",
+    "services": [
+      "company-reg",
+      "pan-reg",
+      "social-security"
+    ],
+    "tips": [
+      {
+        "en": "Start with PAN registration (free)",
+        "ne": "PAN दर्ताबाट सुरु गर्नुहोस् (निःशुल्क)"
+      },
+      {
+        "en": "Choose the right business structure",
+        "ne": "सही व्यवसाय संरचना छान्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "entrepreneur",
+      "startup",
+      "company",
+      "business"
+    ]
+  },
+  {
+    "id": "traveling-abroad",
+    "name": {
+      "en": "Traveling Abroad",
+      "ne": "विदेश यात्रा"
+    },
+    "description": {
+      "en": "Apply for a passport, visa, and prepare travel documents.",
+      "ne": "पासपोर्ट, भिसा आवेदन गर्नुहोस्, र यात्रा कागजात तयार गर्नुहोस्।"
+    },
+    "icon": "flight",
+    "services": [
+      "passport",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Apply for passport at least 3 weeks before travel",
+        "ne": "यात्राको कम्तिमा ३ हप्ता अगावै पासपोर्टको लागि आवेदन गर्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "travel",
+      "passport",
+      "visa",
+      "abroad",
+      "foreign"
+    ]
+  },
+  {
+    "id": "death",
+    "name": {
+      "en": "Death of a Family Member",
+      "ne": "परिवारको सदस्यको मृत्यु"
+    },
+    "description": {
+      "en": "Register the death and obtain the death registration certificate for legal and administrative purposes.",
+      "ne": "मृत्यु दर्ता गर्नुहोस् र कानुनी तथा प्रशासनिक उद्देश्यका लागि मृत्यु दर्ता प्रमाणपत्र प्राप्त गर्नुहोस्।"
+    },
+    "icon": "assignment",
+    "services": [
+      "death-registration",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Register the death as soon as possible",
+        "ne": "मृत्यु जति छिटो सम्भव दर्ता गर्नुहोस्"
+      },
+      {
+        "en": "Keep multiple certified copies of the certificate",
+        "ne": "प्रमाणपत्रका धेरै प्रमाणित प्रतिलिपि राख्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "death",
+      "mrityu",
+      "deceased"
+    ]
+  },
+  {
+    "id": "divorce",
+    "name": {
+      "en": "Divorce",
+      "ne": "विवाह विच्छेद"
+    },
+    "description": {
+      "en": "Register divorce and update civil status for legal purposes.",
+      "ne": "विवाह विच्छेद दर्ता गर्नुहोस् र कानुनी उद्देश्यका लागि नागरिक स्थिति अपडेट गर्नुहोस्।"
+    },
+    "icon": "gavel",
+    "services": [
+      "divorce-registration",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Obtain a court order before registration",
+        "ne": "दर्ता गर्नुअघि अदालती आदेश प्राप्त गर्नुहोस्"
+      },
+      {
+        "en": "Keep certified copies of all documents",
+        "ne": "सबै कागजातका प्रमाणित प्रतिलिपि राख्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "divorce",
+      "talaq",
+      "vivaha vichhed"
+    ]
+  },
+  {
+    "id": "migration",
+    "name": {
+      "en": "Migration",
+      "ne": "बसाइँसराइ"
+    },
+    "description": {
+      "en": "Register migration and obtain the migration certificate when moving to a new location.",
+      "ne": "नयाँ स्थानमा सर्दा बसाइँसराइ दर्ता गर्नुहोस् र बसाइँसराइ प्रमाणपत्र प्राप्त गर्नुहोस्।"
+    },
+    "icon": "move_up",
+    "services": [
+      "migration-registration",
+      "citizenship-by-descent"
+    ],
+    "tips": [
+      {
+        "en": "Register migration within 30 days of moving",
+        "ne": "सरेको ३० दिनभित्र बसाइँसराइ दर्ता गर्नुहोस्"
+      },
+      {
+        "en": "Obtain recommendation from both origin and destination wards",
+        "ne": "उत्पत्ति र गन्तव्य दुवै वडाबाट सिफारिस प्राप्त गर्नुहोस्"
+      }
+    ],
+    "keywords": [
+      "migration",
+      "basai",
+      "relocation",
+      "moving"
+    ]
+  }
+]

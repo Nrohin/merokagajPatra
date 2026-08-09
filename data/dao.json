@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "dao-bhojpur",
+    "name": {
+      "en": "District Administration Office, Bhojpur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Bhojpur"
+    },
+    "district": "Bhojpur",
+    "headquarters": "Bhojpur",
+    "province": "Koshi Province",
+    "website": "https://daobhojpur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Bhojpur+Nepal"
+  },
+  {
+    "id": "dao-dhankuta",
+    "name": {
+      "en": "District Administration Office, Dhankuta",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dhankuta"
+    },
+    "district": "Dhankuta",
+    "headquarters": "Dhankuta",
+    "province": "Koshi Province",
+    "website": "https://daodhankuta.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dhankuta+Nepal"
+  },
+  {
+    "id": "dao-ilam",
+    "name": {
+      "en": "District Administration Office, Ilam",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Ilam"
+    },
+    "district": "Ilam",
+    "headquarters": "Ilam",
+    "province": "Koshi Province",
+    "website": "https://daoilam.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Ilam+Nepal"
+  },
+  {
+    "id": "dao-jhapa",
+    "name": {
+      "en": "District Administration Office, Jhapa",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Jhapa"
+    },
+    "district": "Jhapa",
+    "headquarters": "Bhadrapur",
+    "province": "Koshi Province",
+    "website": "https://daojhapa.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Jhapa+Nepal"
+  },
+  {
+    "id": "dao-khotang",
+    "name": {
+      "en": "District Administration Office, Khotang",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Khotang"
+    },
+    "district": "Khotang",
+    "headquarters": "Diktel",
+    "province": "Koshi Province",
+    "website": "https://daokhotang.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Khotang+Nepal"
+  },
+  {
+    "id": "dao-morang",
+    "name": {
+      "en": "District Administration Office, Morang",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Morang"
+    },
+    "district": "Morang",
+    "headquarters": "Biratnagar",
+    "province": "Koshi Province",
+    "website": "https://daomorang.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Morang+Nepal"
+  },
+  {
+    "id": "dao-okhaldhunga",
+    "name": {
+      "en": "District Administration Office, Okhaldhunga",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Okhaldhunga"
+    },
+    "district": "Okhaldhunga",
+    "headquarters": "Siddhicharan",
+    "province": "Koshi Province",
+    "website": "https://daookhaldhunga.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Okhaldhunga+Nepal"
+  },
+  {
+    "id": "dao-panchthar",
+    "name": {
+      "en": "District Administration Office, Panchthar",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Panchthar"
+    },
+    "district": "Panchthar",
+    "headquarters": "Phidim",
+    "province": "Koshi Province",
+    "website": "https://daopanchthar.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Panchthar+Nepal"
+  },
+  {
+    "id": "dao-sankhuwasabha",
+    "name": {
+      "en": "District Administration Office, Sankhuwasabha",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Sankhuwasabha"
+    },
+    "district": "Sankhuwasabha",
+    "headquarters": "Khandbari",
+    "province": "Koshi Province",
+    "website": "https://daosankhuwasabha.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Sankhuwasabha+Nepal"
+  },
+  {
+    "id": "dao-solukhumbu",
+    "name": {
+      "en": "District Administration Office, Solukhumbu",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Solukhumbu"
+    },
+    "district": "Solukhumbu",
+    "headquarters": "Salleri",
+    "province": "Koshi Province",
+    "website": "https://daosolukhumbu.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Solukhumbu+Nepal"
+  },
+  {
+    "id": "dao-sunsari",
+    "name": {
+      "en": "District Administration Office, Sunsari",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Sunsari"
+    },
+    "district": "Sunsari",
+    "headquarters": "Inaruwa",
+    "province": "Koshi Province",
+    "website": "https://daosunsari.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Sunsari+Nepal"
+  },
+  {
+    "id": "dao-taplejung",
+    "name": {
+      "en": "District Administration Office, Taplejung",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Taplejung"
+    },
+    "district": "Taplejung",
+    "headquarters": "Phungling",
+    "province": "Koshi Province",
+    "website": "https://daotaplejung.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Taplejung+Nepal"
+  },
+  {
+    "id": "dao-terhathum",
+    "name": {
+      "en": "District Administration Office, Terhathum",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Terhathum"
+    },
+    "district": "Terhathum",
+    "headquarters": "Myanglung",
+    "province": "Koshi Province",
+    "website": "https://daoterhathum.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Terhathum+Nepal"
+  },
+  {
+    "id": "dao-udayapur",
+    "name": {
+      "en": "District Administration Office, Udayapur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Udayapur"
+    },
+    "district": "Udayapur",
+    "headquarters": "Gaighat",
+    "province": "Koshi Province",
+    "website": "https://daoudayapur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Udayapur+Nepal"
+  },
+  {
+    "id": "dao-bara",
+    "name": {
+      "en": "District Administration Office, Bara",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Bara"
+    },
+    "district": "Bara",
+    "headquarters": "Kalaiya",
+    "province": "Madhesh Province",
+    "website": "https://daobara.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Bara+Nepal"
+  },
+  {
+    "id": "dao-dhanusha",
+    "name": {
+      "en": "District Administration Office, Dhanusha",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dhanusha"
+    },
+    "district": "Dhanusha",
+    "headquarters": "Janakpur",
+    "province": "Madhesh Province",
+    "website": "https://daodhanusha.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dhanusha+Nepal"
+  },
+  {
+    "id": "dao-mahottari",
+    "name": {
+      "en": "District Administration Office, Mahottari",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Mahottari"
+    },
+    "district": "Mahottari",
+    "headquarters": "Jaleshwar",
+    "province": "Madhesh Province",
+    "website": "https://daomahottari.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Mahottari+Nepal"
+  },
+  {
+    "id": "dao-parsa",
+    "name": {
+      "en": "District Administration Office, Parsa",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Parsa"
+    },
+    "district": "Parsa",
+    "headquarters": "Birgunj",
+    "province": "Madhesh Province",
+    "website": "https://daoparsa.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Parsa+Nepal"
+  },
+  {
+    "id": "dao-rautahat",
+    "name": {
+      "en": "District Administration Office, Rautahat",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Rautahat"
+    },
+    "district": "Rautahat",
+    "headquarters": "Gaur",
+    "province": "Madhesh Province",
+    "website": "https://daorautahat.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Rautahat+Nepal"
+  },
+  {
+    "id": "dao-saptari",
+    "name": {
+      "en": "District Administration Office, Saptari",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Saptari"
+    },
+    "district": "Saptari",
+    "headquarters": "Rajbiraj",
+    "province": "Madhesh Province",
+    "website": "https://daosaptari.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Saptari+Nepal"
+  },
+  {
+    "id": "dao-sarlahi",
+    "name": {
+      "en": "District Administration Office, Sarlahi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Sarlahi"
+    },
+    "district": "Sarlahi",
+    "headquarters": "Malangwa",
+    "province": "Madhesh Province",
+    "website": "https://daosarlahi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Sarlahi+Nepal"
+  },
+  {
+    "id": "dao-siraha",
+    "name": {
+      "en": "District Administration Office, Siraha",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Siraha"
+    },
+    "district": "Siraha",
+    "headquarters": "Siraha",
+    "province": "Madhesh Province",
+    "website": "https://daosiraha.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Siraha+Nepal"
+  },
+  {
+    "id": "dao-bhaktapur",
+    "name": {
+      "en": "District Administration Office, Bhaktapur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Bhaktapur"
+    },
+    "district": "Bhaktapur",
+    "headquarters": "Bhaktapur",
+    "province": "Bagmati Province",
+    "website": "https://daobhaktapur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Bhaktapur+Nepal"
+  },
+  {
+    "id": "dao-chitwan",
+    "name": {
+      "en": "District Administration Office, Chitwan",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Chitwan"
+    },
+    "district": "Chitwan",
+    "headquarters": "Bharatpur",
+    "province": "Bagmati Province",
+    "website": "https://daochitwan.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Chitwan+Nepal"
+  },
+  {
+    "id": "dao-dhading",
+    "name": {
+      "en": "District Administration Office, Dhading",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dhading"
+    },
+    "district": "Dhading",
+    "headquarters": "Dhadingbesi",
+    "province": "Bagmati Province",
+    "website": "https://daodhading.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dhading+Nepal"
+  },
+  {
+    "id": "dao-dolakha",
+    "name": {
+      "en": "District Administration Office, Dolakha",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dolakha"
+    },
+    "district": "Dolakha",
+    "headquarters": "Charikot",
+    "province": "Bagmati Province",
+    "website": "https://daodolakha.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dolakha+Nepal"
+  },
+  {
+    "id": "dao-kathmandu",
+    "name": {
+      "en": "District Administration Office, Kathmandu",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kathmandu"
+    },
+    "district": "Kathmandu",
+    "headquarters": "Kathmandu",
+    "province": "Bagmati Province",
+    "website": "https://daokathmandu.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kathmandu+Nepal"
+  },
+  {
+    "id": "dao-kavrepalanchok",
+    "name": {
+      "en": "District Administration Office, Kavrepalanchok",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kavrepalanchok"
+    },
+    "district": "Kavrepalanchok",
+    "headquarters": "Dhulikhel",
+    "province": "Bagmati Province",
+    "website": "https://daokavrepalanchok.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kavrepalanchok+Nepal"
+  },
+  {
+    "id": "dao-lalitpur",
+    "name": {
+      "en": "District Administration Office, Lalitpur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Lalitpur"
+    },
+    "district": "Lalitpur",
+    "headquarters": "Lalitpur",
+    "province": "Bagmati Province",
+    "website": "https://daolalitpur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Lalitpur+Nepal"
+  },
+  {
+    "id": "dao-makwanpur",
+    "name": {
+      "en": "District Administration Office, Makwanpur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Makwanpur"
+    },
+    "district": "Makwanpur",
+    "headquarters": "Hetauda",
+    "province": "Bagmati Province",
+    "website": "https://daomakwanpur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Makwanpur+Nepal"
+  },
+  {
+    "id": "dao-nuwakot",
+    "name": {
+      "en": "District Administration Office, Nuwakot",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Nuwakot"
+    },
+    "district": "Nuwakot",
+    "headquarters": "Bidur",
+    "province": "Bagmati Province",
+    "website": "https://daonuwakot.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Nuwakot+Nepal"
+  },
+  {
+    "id": "dao-ramechhap",
+    "name": {
+      "en": "District Administration Office, Ramechhap",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Ramechhap"
+    },
+    "district": "Ramechhap",
+    "headquarters": "Manthali",
+    "province": "Bagmati Province",
+    "website": "https://daoramechhap.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Ramechhap+Nepal"
+  },
+  {
+    "id": "dao-rasuwa",
+    "name": {
+      "en": "District Administration Office, Rasuwa",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Rasuwa"
+    },
+    "district": "Rasuwa",
+    "headquarters": "Dhunche",
+    "province": "Bagmati Province",
+    "website": "https://daorasuwa.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Rasuwa+Nepal"
+  },
+  {
+    "id": "dao-sindhuli",
+    "name": {
+      "en": "District Administration Office, Sindhuli",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Sindhuli"
+    },
+    "district": "Sindhuli",
+    "headquarters": "Kamalamai",
+    "province": "Bagmati Province",
+    "website": "https://daosindhuli.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Sindhuli+Nepal"
+  },
+  {
+    "id": "dao-sindhupalchok",
+    "name": {
+      "en": "District Administration Office, Sindhupalchok",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Sindhupalchok"
+    },
+    "district": "Sindhupalchok",
+    "headquarters": "Chautara",
+    "province": "Bagmati Province",
+    "website": "https://daosindhupalchok.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Sindhupalchok+Nepal"
+  },
+  {
+    "id": "dao-baglung",
+    "name": {
+      "en": "District Administration Office, Baglung",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Baglung"
+    },
+    "district": "Baglung",
+    "headquarters": "Baglung",
+    "province": "Gandaki Province",
+    "website": "https://daobaglung.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Baglung+Nepal"
+  },
+  {
+    "id": "dao-gorkha",
+    "name": {
+      "en": "District Administration Office, Gorkha",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Gorkha"
+    },
+    "district": "Gorkha",
+    "headquarters": "Gorkha",
+    "province": "Gandaki Province",
+    "website": "https://daogorkha.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Gorkha+Nepal"
+  },
+  {
+    "id": "dao-kaski",
+    "name": {
+      "en": "District Administration Office, Kaski",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kaski"
+    },
+    "district": "Kaski",
+    "headquarters": "Pokhara",
+    "province": "Gandaki Province",
+    "website": "https://daokaski.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kaski+Nepal"
+  },
+  {
+    "id": "dao-lamjung",
+    "name": {
+      "en": "District Administration Office, Lamjung",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Lamjung"
+    },
+    "district": "Lamjung",
+    "headquarters": "Besisahar",
+    "province": "Gandaki Province",
+    "website": "https://daolamjung.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Lamjung+Nepal"
+  },
+  {
+    "id": "dao-manang",
+    "name": {
+      "en": "District Administration Office, Manang",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Manang"
+    },
+    "district": "Manang",
+    "headquarters": "Chame",
+    "province": "Gandaki Province",
+    "website": "https://daomanang.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Manang+Nepal"
+  },
+  {
+    "id": "dao-mustang",
+    "name": {
+      "en": "District Administration Office, Mustang",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Mustang"
+    },
+    "district": "Mustang",
+    "headquarters": "Jomsom",
+    "province": "Gandaki Province",
+    "website": "https://daomustang.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Mustang+Nepal"
+  },
+  {
+    "id": "dao-myagdi",
+    "name": {
+      "en": "District Administration Office, Myagdi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Myagdi"
+    },
+    "district": "Myagdi",
+    "headquarters": "Beni",
+    "province": "Gandaki Province",
+    "website": "https://daomyagdi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Myagdi+Nepal"
+  },
+  {
+    "id": "dao-nawalpur",
+    "name": {
+      "en": "District Administration Office, Nawalpur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Nawalpur"
+    },
+    "district": "Nawalpur",
+    "headquarters": "Kawasoti",
+    "province": "Gandaki Province",
+    "website": "https://daonawalpur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Nawalpur+Nepal"
+  },
+  {
+    "id": "dao-parbat",
+    "name": {
+      "en": "District Administration Office, Parbat",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Parbat"
+    },
+    "district": "Parbat",
+    "headquarters": "Kushma",
+    "province": "Gandaki Province",
+    "website": "https://daoparbat.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Parbat+Nepal"
+  },
+  {
+    "id": "dao-syangja",
+    "name": {
+      "en": "District Administration Office, Syangja",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Syangja"
+    },
+    "district": "Syangja",
+    "headquarters": "Putalibazar",
+    "province": "Gandaki Province",
+    "website": "https://daosyangja.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Syangja+Nepal"
+  },
+  {
+    "id": "dao-tanahun",
+    "name": {
+      "en": "District Administration Office, Tanahun",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Tanahun"
+    },
+    "district": "Tanahun",
+    "headquarters": "Damauli",
+    "province": "Gandaki Province",
+    "website": "https://daotanahun.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Tanahun+Nepal"
+  },
+  {
+    "id": "dao-arghakhanchi",
+    "name": {
+      "en": "District Administration Office, Arghakhanchi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Arghakhanchi"
+    },
+    "district": "Arghakhanchi",
+    "headquarters": "Sandhikharka",
+    "province": "Lumbini Province",
+    "website": "https://daoarghakhanchi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Arghakhanchi+Nepal"
+  },
+  {
+    "id": "dao-banke",
+    "name": {
+      "en": "District Administration Office, Banke",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Banke"
+    },
+    "district": "Banke",
+    "headquarters": "Nepalgunj",
+    "province": "Lumbini Province",
+    "website": "https://daobanke.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Banke+Nepal"
+  },
+  {
+    "id": "dao-bardiya",
+    "name": {
+      "en": "District Administration Office, Bardiya",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Bardiya"
+    },
+    "district": "Bardiya",
+    "headquarters": "Gulariya",
+    "province": "Lumbini Province",
+    "website": "https://daobardiya.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Bardiya+Nepal"
+  },
+  {
+    "id": "dao-dang",
+    "name": {
+      "en": "District Administration Office, Dang",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dang"
+    },
+    "district": "Dang",
+    "headquarters": "Ghorahi",
+    "province": "Lumbini Province",
+    "website": "https://daodang.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dang+Nepal"
+  },
+  {
+    "id": "dao-gulmi",
+    "name": {
+      "en": "District Administration Office, Gulmi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Gulmi"
+    },
+    "district": "Gulmi",
+    "headquarters": "Tamghas",
+    "province": "Lumbini Province",
+    "website": "https://daogulmi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Gulmi+Nepal"
+  },
+  {
+    "id": "dao-kapilvastu",
+    "name": {
+      "en": "District Administration Office, Kapilvastu",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kapilvastu"
+    },
+    "district": "Kapilvastu",
+    "headquarters": "Taulihawa",
+    "province": "Lumbini Province",
+    "website": "https://daokapilvastu.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kapilvastu+Nepal"
+  },
+  {
+    "id": "dao-palpa",
+    "name": {
+      "en": "District Administration Office, Palpa",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Palpa"
+    },
+    "district": "Palpa",
+    "headquarters": "Tansen",
+    "province": "Lumbini Province",
+    "website": "https://daopalpa.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Palpa+Nepal"
+  },
+  {
+    "id": "dao-pyuthan",
+    "name": {
+      "en": "District Administration Office, Pyuthan",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Pyuthan"
+    },
+    "district": "Pyuthan",
+    "headquarters": "Khalanga",
+    "province": "Lumbini Province",
+    "website": "https://daopyuthan.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Pyuthan+Nepal"
+  },
+  {
+    "id": "dao-rolpa",
+    "name": {
+      "en": "District Administration Office, Rolpa",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Rolpa"
+    },
+    "district": "Rolpa",
+    "headquarters": "Liwang",
+    "province": "Lumbini Province",
+    "website": "https://daorolpa.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Rolpa+Nepal"
+  },
+  {
+    "id": "dao-rupandehi",
+    "name": {
+      "en": "District Administration Office, Rupandehi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Rupandehi"
+    },
+    "district": "Rupandehi",
+    "headquarters": "Siddharthanagar",
+    "province": "Lumbini Province",
+    "website": "https://daorupandehi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Rupandehi+Nepal"
+  },
+  {
+    "id": "dao-rukum-east",
+    "name": {
+      "en": "District Administration Office, Rukum East",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Rukum East"
+    },
+    "district": "Rukum East",
+    "headquarters": "Rukumkot",
+    "province": "Lumbini Province",
+    "website": "https://daorukumeast.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Rukum East+Nepal"
+  },
+  {
+    "id": "dao-parasi",
+    "name": {
+      "en": "District Administration Office, Parasi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Parasi"
+    },
+    "district": "Parasi",
+    "headquarters": "Ramgram",
+    "province": "Lumbini Province",
+    "website": "https://daoparasi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Parasi+Nepal"
+  },
+  {
+    "id": "dao-dailekh",
+    "name": {
+      "en": "District Administration Office, Dailekh",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dailekh"
+    },
+    "district": "Dailekh",
+    "headquarters": "Dailekh",
+    "province": "Karnali Province",
+    "website": "https://daodailekh.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dailekh+Nepal"
+  },
+  {
+    "id": "dao-dolpa",
+    "name": {
+      "en": "District Administration Office, Dolpa",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dolpa"
+    },
+    "district": "Dolpa",
+    "headquarters": "Dunai",
+    "province": "Karnali Province",
+    "website": "https://daodolpa.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dolpa+Nepal"
+  },
+  {
+    "id": "dao-humla",
+    "name": {
+      "en": "District Administration Office, Humla",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Humla"
+    },
+    "district": "Humla",
+    "headquarters": "Simikot",
+    "province": "Karnali Province",
+    "website": "https://daohumla.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Humla+Nepal"
+  },
+  {
+    "id": "dao-jajarkot",
+    "name": {
+      "en": "District Administration Office, Jajarkot",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Jajarkot"
+    },
+    "district": "Jajarkot",
+    "headquarters": "Khalanga",
+    "province": "Karnali Province",
+    "website": "https://daojajarkot.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Jajarkot+Nepal"
+  },
+  {
+    "id": "dao-jumla",
+    "name": {
+      "en": "District Administration Office, Jumla",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Jumla"
+    },
+    "district": "Jumla",
+    "headquarters": "Khalanga",
+    "province": "Karnali Province",
+    "website": "https://daojumla.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Jumla+Nepal"
+  },
+  {
+    "id": "dao-kalikot",
+    "name": {
+      "en": "District Administration Office, Kalikot",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kalikot"
+    },
+    "district": "Kalikot",
+    "headquarters": "Manma",
+    "province": "Karnali Province",
+    "website": "https://daokalikot.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kalikot+Nepal"
+  },
+  {
+    "id": "dao-mugu",
+    "name": {
+      "en": "District Administration Office, Mugu",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Mugu"
+    },
+    "district": "Mugu",
+    "headquarters": "Gamgadhi",
+    "province": "Karnali Province",
+    "website": "https://daomugu.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Mugu+Nepal"
+  },
+  {
+    "id": "dao-salyan",
+    "name": {
+      "en": "District Administration Office, Salyan",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Salyan"
+    },
+    "district": "Salyan",
+    "headquarters": "Khalanga",
+    "province": "Karnali Province",
+    "website": "https://daosalyan.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Salyan+Nepal"
+  },
+  {
+    "id": "dao-surkhet",
+    "name": {
+      "en": "District Administration Office, Surkhet",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Surkhet"
+    },
+    "district": "Surkhet",
+    "headquarters": "Birendranagar",
+    "province": "Karnali Province",
+    "website": "https://daosurkhet.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Surkhet+Nepal"
+  },
+  {
+    "id": "dao-rukum-west",
+    "name": {
+      "en": "District Administration Office, Rukum West",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Rukum West"
+    },
+    "district": "Rukum West",
+    "headquarters": "Musikot",
+    "province": "Karnali Province",
+    "website": "https://daorukumwest.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Rukum West+Nepal"
+  },
+  {
+    "id": "dao-achham",
+    "name": {
+      "en": "District Administration Office, Achham",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Achham"
+    },
+    "district": "Achham",
+    "headquarters": "Mangalsen",
+    "province": "Sudurpashchim Province",
+    "website": "https://daoachham.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Achham+Nepal"
+  },
+  {
+    "id": "dao-baitadi",
+    "name": {
+      "en": "District Administration Office, Baitadi",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Baitadi"
+    },
+    "district": "Baitadi",
+    "headquarters": "Dasharathchand",
+    "province": "Sudurpashchim Province",
+    "website": "https://daobaitadi.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Baitadi+Nepal"
+  },
+  {
+    "id": "dao-bajhang",
+    "name": {
+      "en": "District Administration Office, Bajhang",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Bajhang"
+    },
+    "district": "Bajhang",
+    "headquarters": "Chainpur",
+    "province": "Sudurpashchim Province",
+    "website": "https://daobajhang.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Bajhang+Nepal"
+  },
+  {
+    "id": "dao-bajura",
+    "name": {
+      "en": "District Administration Office, Bajura",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Bajura"
+    },
+    "district": "Bajura",
+    "headquarters": "Martadi",
+    "province": "Sudurpashchim Province",
+    "website": "https://daobajura.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Bajura+Nepal"
+  },
+  {
+    "id": "dao-dadeldhura",
+    "name": {
+      "en": "District Administration Office, Dadeldhura",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Dadeldhura"
+    },
+    "district": "Dadeldhura",
+    "headquarters": "Dadeldhura",
+    "province": "Sudurpashchim Province",
+    "website": "https://daodadeldhura.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Dadeldhura+Nepal"
+  },
+  {
+    "id": "dao-darchula",
+    "name": {
+      "en": "District Administration Office, Darchula",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Darchula"
+    },
+    "district": "Darchula",
+    "headquarters": "Khalanga",
+    "province": "Sudurpashchim Province",
+    "website": "https://daodarchula.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Darchula+Nepal"
+  },
+  {
+    "id": "dao-doti",
+    "name": {
+      "en": "District Administration Office, Doti",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Doti"
+    },
+    "district": "Doti",
+    "headquarters": "Dipayal",
+    "province": "Sudurpashchim Province",
+    "website": "https://daodoti.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Doti+Nepal"
+  },
+  {
+    "id": "dao-kailali",
+    "name": {
+      "en": "District Administration Office, Kailali",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kailali"
+    },
+    "district": "Kailali",
+    "headquarters": "Dhangadhi",
+    "province": "Sudurpashchim Province",
+    "website": "https://daokailali.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kailali+Nepal"
+  },
+  {
+    "id": "dao-kanchanpur",
+    "name": {
+      "en": "District Administration Office, Kanchanpur",
+      "ne": "जिल्ला प्रशासनिक कार्यालय, Kanchanpur"
+    },
+    "district": "Kanchanpur",
+    "headquarters": "Bhimdatta",
+    "province": "Sudurpashchim Province",
+    "website": "https://daokanchanpur.moha.gov.np/en",
+    "hours": {
+      "en": "Mon–Fri: 9AM–5PM (Summer) / 9AM–4PM (Winter)",
+      "ne": "सोम–शुक्र: गर्मी बिहान ९-बेलुका ५ / जाडो बिहान ९-बेलुका ४"
+    },
+    "bestTime": {
+      "en": "Arrive before 10:00 AM to avoid long queues",
+      "ne": "लामो लाइन बच्न बिहान १०:०० बजे अगावै पुग्नुहोस्"
+    },
+    "services": [
+      "citizenship-by-descent",
+      "passport",
+      "national-id",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "citizenship-duplicate"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/District Administration Office (DAO)+Kanchanpur+Nepal"
+  }
+]

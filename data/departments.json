@@ -1,0 +1,155 @@
+[
+  {
+    "id": "doi",
+    "name": {
+      "en": "Ministry of Home Affairs",
+      "ne": "गृह मन्त्रालय"
+    },
+    "description": {
+      "en": "Manages citizenship, passport, and immigration services under the Government of Nepal.",
+      "ne": "नेपाल सरकार अन्तर्गत नागरिकता, पासपोर्ट, र आप्रवासन सेवाहरू व्यवस्थापन गर्छ।"
+    },
+    "website": "https://www.moha.gov.np",
+    "phone": "01-4221903",
+    "services": [
+      "citizenship-by-descent",
+      "citizenship-by-birth",
+      "citizenship-naturalized",
+      "citizenship-nrn",
+      "citizenship-honorary",
+      "national-id"
+    ]
+  },
+  {
+    "id": "dotm",
+    "name": {
+      "en": "Department of Transport Management",
+      "ne": "यातायात व्यवस्थापन विभाग"
+    },
+    "description": {
+      "en": "Manages driving licenses, vehicle registration, and transport services.",
+      "ne": "चालक परमिट, सवारी दर्ता, र यातायात सेवाहरू व्यवस्थापन गर्छ।"
+    },
+    "website": "https://www.dovta.gov.np",
+    "phone": "01-4244470",
+    "services": [
+      "driving-license"
+    ]
+  },
+  {
+    "id": "dofa",
+    "name": {
+      "en": "Local Ward Office",
+      "ne": "स्थानीय वडा कार्यालय"
+    },
+    "description": {
+      "en": "Manages birth, death, and marriage registration services.",
+      "ne": "जन्म, मृत्यु, र विवाह दर्ता सेवाहरू व्यवस्थापन गर्छ।"
+    },
+    "website": "https://www.dcr.gov.np",
+    "phone": "01-4211201",
+    "services": [
+      "birth-registration",
+      "marriage-registration"
+    ]
+  },
+  {
+    "id": "dolr",
+    "name": {
+      "en": "Department of Land Reform and Management",
+      "ne": "भूमि सुधार तथा व्यवस्थापन विभाग"
+    },
+    "description": {
+      "en": "Manages land registration, reform, and land revenue services.",
+      "ne": "जग्गा दर्ता, सुधार, र भूमि राजस्व सेवाहरू व्यवस्थापन गर्छ।"
+    },
+    "website": "https://www.dolr.gov.np",
+    "phone": "01-4211020",
+    "services": [
+      "land-new-registration",
+      "land-ownership-certificate",
+      "land-record-update",
+      "land-buy-sell",
+      "land-inheritance",
+      "land-gift",
+      "land-family-division",
+      "land-separate-ownership",
+      "land-map-request",
+      "land-plot-verification",
+      "land-boundary",
+      "land-mortgage",
+      "land-mortgage-release",
+      "land-name-correction",
+      "land-area-correction",
+      "property-tax",
+      "property-tax-clearance",
+      "land-ownership-verification",
+      "land-certified-copy"
+    ]
+  },
+  {
+    "id": "ocr",
+    "name": {
+      "en": "Office of the Company Registrar",
+      "ne": "कम्पनी दर्ता कार्यालय"
+    },
+    "description": {
+      "en": "Registers and regulates companies, partnerships, and business entities.",
+      "ne": "कम्पनी, साझेदारी, र व्यावसायिक संस्थाहरू दर्ता र नियमन गर्छ।"
+    },
+    "website": "https://www.ocr.gov.np",
+    "phone": "01-4234121",
+    "services": [
+      "company-reg"
+    ]
+  },
+  {
+    "id": "ird",
+    "name": {
+      "en": "Inland Revenue Department",
+      "ne": "आन्तरिक राजस्व विभाग"
+    },
+    "description": {
+      "en": "Manages tax registration, Permanent Account Number (PAN), and revenue collection.",
+      "ne": "कर दर्ता, Permanent Account Number (PAN), र राजस्व सङ्कलन व्यवस्थापन गर्छ।"
+    },
+    "website": "https://www.ird.gov.np",
+    "phone": "01-4244477",
+    "services": [
+      "pan-reg"
+    ]
+  },
+  {
+    "id": "dosm",
+    "name": {
+      "en": "Department of Social Security",
+      "ne": "सामाजिक सुरक्षा विभाग"
+    },
+    "description": {
+      "en": "Manages social security fund, worker welfare, and labor protection.",
+      "ne": "सामाजिक सुरक्षा कोष, श्रमिक कल्याण, र श्रम संरक्षण व्यवस्थापन गर्छ।"
+    },
+    "website": "https://www.ssf.gov.np",
+    "phone": "01-4244344",
+    "services": [
+      "social-security"
+    ]
+  },
+  {
+    "id": "dop",
+    "name": {
+      "en": "Department of Passport",
+      "ne": "राहदानी विभाग"
+    },
+    "description": {
+      "en": "Manages passport issuance and related services for Nepali citizens.",
+      "ne": "नेपाली नागरिकहरूलाई पासपोर्ट जारी र सम्बन्धित सेवाहरू व्यवस्थापन गर्छ।"
+    },
+    "website": "https://nepalpassport.gov.np/",
+    "phone": "01-4244470",
+    "services": [
+      "passport",
+      "passport-replacement"
+    ]
+  }
+]
