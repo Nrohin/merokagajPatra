@@ -14,8 +14,8 @@ if (typeof window !== 'undefined' && window.MEROKAGAJ_CONFIG) {
 
 export const CONFIG = Object.assign({
   ADMIN_PATH: 'manage-portal-x7k9',
-  SUPABASE_URL: '',
-  SUPABASE_ANON_KEY: '',
+  SUPABASE_URL: 'https://txwrsqictjfxcxhwjmtj.supabase.co',
+  SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR4d3JzcWljdGpmeGN4aHdqbXRqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODYyODQ0NTQsImV4cCI6MjEwMTg2MDQ1NH0.z3komc6qS1zjnHgDKjYAJQNPQCAGtIodjk7tbLhnWi4',
   SITE_NAME_EN: 'MeroKagajPatra',
   SITE_NAME_NE: 'मेरोकागजपत्र',
 }, localOverrides);
