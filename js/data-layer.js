@@ -28,12 +28,16 @@ export async function initDataLayer() {
   registerProvider('/data/offices.json', hydrateTable('offices', mapOffice));
   registerProvider('/data/dao.json', hydrateTable('dao_offices', mapDaoOffice));
   registerProvider('/data/forms.json', hydrateTable('forms', mapForm));
-  registerProvider('/data/fees.json', hydrateTable('fees', mapFee));
-  registerProvider('/data/processing.json', hydrateTable('processing_times', mapProcessing));
-  registerProvider('/data/faq.json', hydrateTable('faqs', mapFaq));
-  registerProvider('/data/glossary.json', hydrateTable('glossary', mapGlossary));
+  // NOTE: the order column must EXIST in the table. Tables without a name_en
+  // column (fees, processing_times, faqs, glossary, news) must order by a
+  // column they actually have — otherwise PostgREST returns an error and the
+  // provider falls back to the local JSON file (stale content).
+  registerProvider('/data/fees.json', hydrateTable('fees', mapFee, 'sort_order'));
+  registerProvider('/data/processing.json', hydrateTable('processing_times', mapProcessing, 'id'));
+  registerProvider('/data/faq.json', hydrateTable('faqs', mapFaq, 'sort_order'));
+  registerProvider('/data/glossary.json', hydrateTable('glossary', mapGlossary, 'term_en'));
   registerProvider('/data/emergency.json', hydrateTable('emergency_numbers', mapEmergency));
-  registerProvider('/data/news.json', hydrateTable('news', mapNews));
+  registerProvider('/data/news.json', hydrateTable('news', mapNews, 'date', false));
   registerProvider('/data/life-events.json', hydrateTable('life_events', mapLifeEvent));
   registerProvider('/data/translations/en.json', () => hydrateTranslations('en'));
   registerProvider('/data/translations/ne.json', () => hydrateTranslations('ne'));
@@ -95,12 +99,12 @@ function patchFetch() {
 // Table hydration (generic for most content types)
 // ══════════════════════════════════════════════════════════════
 
-function hydrateTable(table, mapper) {
+function hydrateTable(table, mapper, order = 'name_en', ascending = true) {
   return async () => {
     const { data, error } = await pgFrom(table)
       .select('*')
       .eq('status', 'published')
-      .order('name_en');
+      .order(order, { ascending });
     if (error || !data) throw error || new Error('No data');
     return data.map(mapper).filter(Boolean);
   };

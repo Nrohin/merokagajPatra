@@ -100,62 +100,62 @@ async function routeTo(restPath, contentEl) {
         break;
       case 'services':
         const svcs = await getEditor('services');
-        if (id && id !== 'new') await svcs.renderEdit(contentEl, id);
+        if (id) await svcs.renderEdit(contentEl, id);
         else await svcs.renderList(contentEl);
         break;
       case 'departments':
         const dept = await getEditor('departments');
-        if (id && id !== 'new') await dept.renderEdit(contentEl, id);
+        if (id) await dept.renderEdit(contentEl, id);
         else await dept.renderList(contentEl);
         break;
       case 'offices':
         const off = await getEditor('offices');
-        if (id && id !== 'new') await off.renderEdit(contentEl, id);
+        if (id) await off.renderEdit(contentEl, id);
         else await off.renderList(contentEl);
         break;
       case 'dao-offices':
         const dao = await getEditor('daos');
-        if (id && id !== 'new') await dao.renderEdit(contentEl, id);
+        if (id) await dao.renderEdit(contentEl, id);
         else await dao.renderList(contentEl);
         break;
       case 'forms':
         const frm = await getEditor('forms');
-        if (id && id !== 'new') await frm.renderEdit(contentEl, id);
+        if (id) await frm.renderEdit(contentEl, id);
         else await frm.renderList(contentEl);
         break;
       case 'fees':
         const fee = await getEditor('fees');
-        if (id && id !== 'new') await fee.renderEdit(contentEl, id);
+        if (id) await fee.renderEdit(contentEl, id);
         else await fee.renderList(contentEl);
         break;
       case 'processing':
         const proc = await getEditor('processing');
-        if (id && id !== 'new') await proc.renderEdit(contentEl, id);
+        if (id) await proc.renderEdit(contentEl, id);
         else await proc.renderList(contentEl);
         break;
       case 'faqs':
         const faq = await getEditor('faqs');
-        if (id && id !== 'new') await faq.renderEdit(contentEl, id);
+        if (id) await faq.renderEdit(contentEl, id);
         else await faq.renderList(contentEl);
         break;
       case 'glossary':
         const gl = await getEditor('glossary');
-        if (id && id !== 'new') await gl.renderEdit(contentEl, id);
+        if (id) await gl.renderEdit(contentEl, id);
         else await gl.renderList(contentEl);
         break;
       case 'emergency':
         const em = await getEditor('emergency');
-        if (id && id !== 'new') await em.renderEdit(contentEl, id);
+        if (id) await em.renderEdit(contentEl, id);
         else await em.renderList(contentEl);
         break;
       case 'news':
         const nw = await getEditor('news');
-        if (id && id !== 'new') await nw.renderEdit(contentEl, id);
+        if (id) await nw.renderEdit(contentEl, id);
         else await nw.renderList(contentEl);
         break;
       case 'life-events':
         const le = await getEditor('lifeEvents');
-        if (id && id !== 'new') await le.renderEdit(contentEl, id);
+        if (id) await le.renderEdit(contentEl, id);
         else await le.renderList(contentEl);
         break;
       case 'translations':

@@ -531,10 +531,10 @@ function renderForm(container, svc, isNew, allServices, allDepartments) {
     });
   }
 
-  // Save handler
+  // Save handler — editors without publish permission submit as draft
   container.querySelector('#svc-form').addEventListener('submit', async (e) => {
     e.preventDefault();
-    await save(isNew ? null : s.id, 'published');
+    await save(isNew ? null : s.id, Store.can('publish') ? 'published' : 'draft');
   });
   container.querySelector('#svc-save-draft').addEventListener('click', async () => {
     await save(isNew ? null : s.id, 'draft');
