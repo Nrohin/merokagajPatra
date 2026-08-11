@@ -3,17 +3,19 @@ import { signInWithPassword as sbSignIn, signOut as sbSignOut, getSession, onAut
 import { from } from '../supabase.js';
 import * as Store from './store.js';
 
+// Only these roles may use the admin panel. A profile with an unknown role
+// is treated as unauthorized (defense-in-depth on top of RLS).
+const ALLOWED_ROLES = ['super_admin', 'admin', 'editor'];
+
 export function init() {
   return new Promise((resolve) => {
     onAuthStateChange(async (event, session) => {
       try {
         if (session && (event === 'INITIAL_SESSION' || event === 'TOKEN_REFRESHED')) {
           const { data, error } = await from('profiles').select('*').eq('id', session.user.id).single();
-          if (data) {
-            if (data.is_active) {
-              Store.setSession(session);
-              Store.setProfile(data);
-            }
+          if (data && data.is_active && ALLOWED_ROLES.includes(data.role)) {
+            Store.setSession(session);
+            Store.setProfile(data);
           }
         }
       } catch { /* no profile yet — treat as signed out */ }
@@ -31,6 +33,7 @@ export async function signIn(email, password) {
   const { data, error } = await from('profiles').select('*').eq('id', session.user.id).single();
   if (error || !data) throw new Error('Could not load your profile. Contact an administrator.');
   if (!data.is_active) throw new Error('Your account has been deactivated. Contact an administrator.');
+  if (!ALLOWED_ROLES.includes(data.role)) throw new Error('This account is not authorized for the admin panel.');
   Store.setSession(session);
   Store.setProfile(data);
   return data;

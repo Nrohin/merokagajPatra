@@ -4,7 +4,7 @@ import * as Store from './store.js';
 
 export { from };
 
-export async function list(table, { search, searchFields, status, order = 'updated_at.desc', limit = 50, offset = 0, count } = {}) {
+export async function list(table, { search, searchFields, status, order = 'updated_at.desc', limit = 50, offset = 0 } = {}) {
   let q = from(table).select('*');
   if (search && searchFields?.length) {
     // Postgrest ilike with OR: (field1.ilike.*search*).or.(field2.ilike.*search*)
@@ -23,7 +23,10 @@ export async function list(table, { search, searchFields, status, order = 'updat
     q = q.order(col, { ascending: dir === 'asc' });
   }
   q = q.range(offset, offset + limit - 1);
-  const { data, error, count: total } = count ? await q.count('exact') : await q;
+  // Always request an exact count so pagination and the "N items" badge are
+  // correct. PostgREST returns the total matching rows (before limit/offset)
+  // in the Content-Range header when Prefer: count=exact is set.
+  const { data, error, count: total } = await q.count('exact');
   if (error) throw error;
 
   // Client-side multi-field search
@@ -38,8 +41,7 @@ export async function list(table, { search, searchFields, status, order = 'updat
 }
 
 export async function get(table, id) {
-  const idCol = table === 'faqs' || table === 'news' ? 'id' : 'id';
-  const { data, error } = await from(table).select('*').eq(idCol, id).single();
+  const { data, error } = await from(table).select('*').eq('id', id).single();
   if (error) throw error;
   return data;
 }

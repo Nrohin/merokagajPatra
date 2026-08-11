@@ -63,15 +63,20 @@ export function showModal(title, bodyHtml, opts = {}) {
 }
 
 // ── Form field helpers ──────────────────────────────────────
-export function field({ name, label, type = 'text', value = '', required = false, help = '', placeholder = '' }) {
+export function field({ name, label, type = 'text', value = '', required = false, help = '', placeholder = '', options }) {
   const id = `field-${name}`;
   const val = value == null ? '' : value;
   let input;
   if (type === 'textarea') {
     input = `<textarea class="admin-input" id="${id}" name="${name}" rows="3" placeholder="${esc(placeholder)}" ${required ? 'required' : ''}>${esc(val)}</textarea>`;
   } else if (type === 'select') {
+    const optHtml = (options || []).map(o => {
+      const { value: ov, label: ol } = _normOpt(o);
+      const selected = ov === val ? 'selected' : '';
+      return `<option value="${esc(ov)}" ${selected}>${esc(ol)}</option>`;
+    }).join('');
     input = `<select class="admin-input" id="${id}" name="${name}" ${required ? 'required' : ''}>
-      <option value="">-- Select --</option>
+      <option value="">-- Select --</option>${optHtml}
     </select>`;
   } else if (type === 'checkbox') {
     input = `<label class="admin-checkbox"><input type="checkbox" id="${id}" name="${name}" ${val ? 'checked' : ''}> ${esc(label)}</label>`;
@@ -88,9 +93,20 @@ export function field({ name, label, type = 'text', value = '', required = false
   </div>`;
 }
 
+// Normalize select option into {value, label}. Accepts:
+//   'draft'                          → {value:'draft', label:'draft'}
+//   ['draft', 'Draft']               → {value:'draft', label:'Draft'}
+//   {value:'draft', label:'Draft'}   → unchanged
+function _normOpt(o) {
+  if (o == null) return { value: '', label: '' };
+  if (typeof o === 'string') return { value: o, label: o };
+  if (Array.isArray(o)) return { value: o[0], label: o[1] };
+  return { value: o.value, label: o.label };
+}
+
 export function selectField({ name, label, value, options, required = false }) {
-  const opts = options.map(o => {
-    const [val, lbl] = typeof o === 'string' ? [o, o] : [o.value, o.label];
+  const opts = (options || []).map(o => {
+    const { value: val, label: lbl } = _normOpt(o);
     return `<option value="${esc(val)}" ${val === value ? 'selected' : ''}>${esc(lbl)}</option>`;
   }).join('');
   return `<div class="admin-field">

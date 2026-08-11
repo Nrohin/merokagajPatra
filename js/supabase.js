@@ -203,12 +203,17 @@ class PostgrestQuery {
     let url = `${_url}/rest/v1/${this._table}`;
     const params = new URLSearchParams();
 
-    if (this._method === 'GET' || this._method === 'DELETE') {
-      if (this._select && this._method === 'GET') params.set('select', this._select);
+    if (this._method === 'GET') {
+      if (this._select) params.set('select', this._select);
       if (this._order) params.set('order', this._order);
       if (this._limit != null) params.set('limit', this._limit);
       if (this._offset != null) params.set('offset', this._offset);
-      // Filters are stored as "col=op.value" — rebuild as proper query params
+    }
+    // Filters (the WHERE clause) apply to GET, PATCH (update) and DELETE —
+    // but NOT to POST (insert/upsert), which carries the payload in the body.
+    // Without this, PATCH/DELETE go out with no WHERE clause and PostgREST
+    // rejects them ("UPDATE requires a WHERE clause") or, worse, mass-updates.
+    if (this._method !== 'POST') {
       this._filters.forEach(f => {
         const idx = f.indexOf('=');
         const col = f.slice(0, idx);
@@ -234,12 +239,37 @@ class PostgrestQuery {
     if (!_url) {
       throw new Error('Supabase is not configured. Add your SUPABASE_URL and SUPABASE_ANON_KEY to js/config.local.js.');
     }
+
     let res;
     try {
       res = await fetch(url, opts);
     } catch (err) {
       throw new Error('Cannot reach Supabase at ' + _url + '. Check your connection and CORS settings.');
     }
+
+    // Access token expired mid-session: refresh once and retry.
+    // Only for state-changing or authed requests — a public anon read
+    // that returns 401 is a genuine error (e.g. wrong project keys).
+    if (res.status === 401 && _authHeader()) {
+      try {
+        const stored = _getStoredSession();
+        if (stored?.refresh_token) {
+          const refreshed = await refreshSession(stored.refresh_token);
+          _notifyListeners('TOKEN_REFRESHED', refreshed);
+          // Retry once with the new token
+          const retryHeaders = _headers();
+          if (this._single) retryHeaders['Accept'] = 'application/vnd.pgrst.object+json';
+          if (this._count) retryHeaders['Prefer'] = 'count=exact,return=representation';
+          if (this._method !== 'GET' && this._method !== 'DELETE') {
+            retryHeaders['Prefer'] += ',resolution=merge-duplicates';
+          }
+          const retryOpts = { method: this._method, headers: retryHeaders };
+          if (this._body) retryOpts.body = opts.body;
+          res = await fetch(url, retryOpts);
+        }
+      } catch { /* refresh failed — surface original error */ }
+    }
+
     const countHeader = res.headers.get('content-range');
     const total = countHeader ? parseInt(countHeader.split('/')[1]) : 0;
 

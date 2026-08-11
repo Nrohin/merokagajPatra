@@ -336,6 +336,9 @@ function renderForm(container, svc, isNew, allServices, allDepartments) {
   const tips = s.tips || [];
   const sources = s.official_sources || [];
   const related = s.related_services || [];
+  // Selected related-service IDs. Kept in renderForm scope so both
+  // renderRelated() and save() can read/write the same set.
+  const selected = new Set(related);
 
   renderSteps(steps);
   renderDocs(docs);
@@ -504,7 +507,6 @@ function renderForm(container, svc, isNew, allServices, allDepartments) {
 
   function renderRelated(items) {
     const el = document.getElementById('related-picker');
-    const selected = new Set(items);
     el.innerHTML = `
       <input class="admin-input admin-search" id="related-search" placeholder="Search services..." type="search">
       <div class="admin-related-list" id="related-list">${renderRelatedItems()}</div>`;
