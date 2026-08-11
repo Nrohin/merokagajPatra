@@ -135,7 +135,7 @@
 
 .logo-img {
   display: block;
-  height: 45px;      /* Better mobile size */
+  height: 35px;      /* Better mobile size */
   width: auto;
   border-radius: var(--radius-sm);
 }
@@ -143,7 +143,7 @@
 /* Tablet & Desktop */
 @media (min-width: 768px) {
   .logo-img {
-    height: 50px;
+    height: 40px;
   }
 
   .logo {
