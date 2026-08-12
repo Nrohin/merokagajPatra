@@ -304,7 +304,18 @@ function renderA11ySettings(body) {
 function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').catch(() => {});
+      navigator.serviceWorker.register('/sw.js').then(() => {
+        // When a new service worker takes control (new deployment), reload the
+        // page once so users automatically get the latest code — no manual
+        // cache clearing needed. Skipped on first install (no controller yet).
+        if (!navigator.serviceWorker.controller) return;
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (refreshing) return;
+          refreshing = true;
+          window.location.reload();
+        });
+      }).catch(() => {});
     });
   }
 }
