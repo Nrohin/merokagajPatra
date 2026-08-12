@@ -6,7 +6,7 @@
  * Bump CACHE_NAME whenever you deploy code changes to force a full refresh.
  */
 
-const CACHE_NAME = 'merokagaj-v18';
+const CACHE_NAME = 'merokagaj-v17';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
