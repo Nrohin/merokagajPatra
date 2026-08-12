@@ -238,6 +238,30 @@ async function hydrateServices() {
     tips: r.tips || [],
     relatedServices: r.related_services || [],
     officialSources: r.official_sources || [],
+    feeDetails: r.fee_details || [],
+    importantInfo: (r.important_info_en || r.important_info_ne)
+      ? { en: r.important_info_en || '', ne: r.important_info_ne || '' }
+      : undefined,
+    disclaimer: (r.disclaimer_en || r.disclaimer_ne)
+      ? { en: r.disclaimer_en || '', ne: r.disclaimer_ne || '' }
+      : undefined,
+    whereToApply: {
+      type: r.application_type || 'dao_office',
+      scope: r.application_scope || 'all_daos',
+      daoOfficeId: r.dao_office_id || null,
+      officeId: r.office_id || null,
+      departmentId: r.application_department_id || null,
+      province: r.application_province || null,
+      district: r.application_district || null,
+      custom: {
+        name: r.custom_location_name || { en: '', ne: '' },
+        address: r.custom_location_address || { en: '', ne: '' },
+        phone: r.custom_location_phone || null,
+        email: r.custom_location_email || null,
+        website: r.custom_location_website || null,
+        hours: r.custom_location_hours || { en: '', ne: '' },
+      },
+    },
     // Inline fees summary (used by citizenship.js)
     fees: (r.fees_summary_en || r.fees_summary_ne)
       ? { en: r.fees_summary_en || '', ne: r.fees_summary_ne || '' }

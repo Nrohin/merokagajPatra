@@ -6,9 +6,9 @@
 import * as State from '../state.js';
 import { t, getLang } from '../i18n.js';
 import { formatDate, showToast, copyToClipboard } from '../utils/dom.js';
-import { navigate } from '../router.js';
 import { categoryLabel } from '../utils/categories.js';
 import { renderDAOSelector, bindDAOSelector, init as initDAO } from '../components/dao-selector.js';
+import { loadJSON } from '../utils/api.js';
 
 let cleanup = [];
 
@@ -16,13 +16,12 @@ export async function render({ params, container }) {
   const lang = getLang();
   const serviceId = params.id;
 
-  const [services, fees, processing, forms, departments, offices] = await Promise.all([
+  const [services, forms, departments, offices, daoOffices] = await Promise.all([
     loadJSON('data/services.json'),
-    loadJSON('data/fees.json'),
-    loadJSON('data/processing.json'),
     loadJSON('data/forms.json'),
     loadJSON('data/departments.json'),
     loadJSON('data/offices.json'),
+    loadJSON('data/dao.json'),
   ]);
 
   const service = services.find(s => s.id === serviceId);
@@ -35,10 +34,10 @@ export async function render({ params, container }) {
     return;
   }
 
-  const serviceFees = (fees || []).filter(f => f.serviceId === serviceId);
-  const serviceProcessing = (processing || []).find(p => p.serviceId === serviceId);
+  // Fees and processing are now inline on the service object (from data layer)
+  const feeDetails = service.feeDetails || [];
   const serviceForms = (forms || []).filter(f => f.serviceId === serviceId);
-  const dept = (departments || []).find(d => d.id === service.departmentId);
+  const dept = service.departmentId ? (departments || []).find(d => d.id === service.departmentId) : null;
   const serviceOffices = (offices || []).filter(o =>
     service.offices?.includes(o.id) || o.services?.includes(serviceId)
   );
@@ -46,6 +45,11 @@ export async function render({ params, container }) {
   const isBookmarked = State.isBookmarked(serviceId);
   const serviceName = lang === 'ne' ? (service.name?.ne || service.name?.en) : service.name?.en;
   const serviceDesc = lang === 'ne' ? (service.description?.ne || service.description?.en) : service.description?.en;
+
+  // Get where-to-apply info from the service (editor-controlled)
+  const whereToApply = service.whereToApply || {};
+  const wtaType = whereToApply.type || 'dao_office';
+  const wtaScope = whereToApply.scope || 'all_daos';
 
   container.innerHTML = `
     <!-- Breadcrumbs -->
@@ -94,21 +98,21 @@ export async function render({ params, container }) {
 
         <!-- Quick Info Bar -->
         <div style="display:flex;flex-wrap:wrap;gap:var(--space-6);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--border-primary)">
-          ${serviceProcessing ? `
+          ${service.processing ? `
             <div style="display:flex;align-items:center;gap:var(--space-2)">
               <span class="material-symbols-rounded" aria-hidden="true" style="font-size:20px;color:var(--text-tertiary)">schedule</span>
               <div>
                 <div style="font-size:var(--text-xs);color:var(--text-tertiary)" data-i18n="processingTime">${t('processingTime')}</div>
-                <div style="font-size:var(--text-sm);font-weight:var(--weight-semibold)">${serviceProcessing.standardDays ? serviceProcessing.standardDays + ' ' + (lang === 'ne' ? 'दिन' : 'days') : (serviceProcessing.note ? (lang === 'ne' ? (serviceProcessing.note.ne || serviceProcessing.note.en) : serviceProcessing.note.en) : t('needsVerification'))}</div>
+                <div style="font-size:var(--text-sm);font-weight:var(--weight-semibold)">${service.processing.standardDays ? service.processing.standardDays + ' ' + (lang === 'ne' ? 'दिन' : 'days') : (service.processing.note ? (lang === 'ne' ? (service.processing.note.ne || service.processing.note.en) : service.processing.note.en) : t('needsVerification'))}</div>
               </div>
             </div>
           ` : ''}
-          ${serviceFees.length > 0 ? `
+          ${service.fees ? `
             <div style="display:flex;align-items:center;gap:var(--space-2)">
               <span class="material-symbols-rounded" aria-hidden="true" style="font-size:20px;color:var(--text-tertiary)">payments</span>
               <div>
                 <div style="font-size:var(--text-xs);color:var(--text-tertiary)" data-i18n="fee">${t('fee')}</div>
-                <div style="font-size:var(--text-sm);font-weight:var(--weight-semibold)">${serviceFees[0].amount > 0 ? 'NPR ' + serviceFees[0].amount?.toLocaleString() : (serviceFees[0].note ? (lang === 'ne' ? (serviceFees[0].note.ne || serviceFees[0].note.en) : serviceFees[0].note.en) : t('needsVerification'))}</div>
+                <div style="font-size:var(--text-sm);font-weight:var(--weight-semibold)">${lang === 'ne' ? service.fees.ne : service.fees.en}</div>
               </div>
             </div>
           ` : ''}
@@ -195,7 +199,7 @@ export async function render({ params, container }) {
           ` : ''}
 
           <!-- Fee Details -->
-          ${serviceFees.length > 0 ? `
+          ${feeDetails.length > 0 ? `
             <div>
               <h2 style="font-size:var(--text-xl);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-2)">
                 <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--color-primary)">payments</span>
@@ -211,7 +215,7 @@ export async function render({ params, container }) {
                     </tr>
                   </thead>
                   <tbody>
-                    ${serviceFees.map(f => `
+                    ${feeDetails.map(f => `
                       <tr>
                         <td>${lang === 'ne' ? (f.type?.ne || f.type?.en) : f.type?.en}</td>
                         <td style="font-weight:var(--weight-semibold)">NPR ${f.amount?.toLocaleString()}</td>
@@ -222,30 +226,48 @@ export async function render({ params, container }) {
                 </table>
               </div>
             </div>
+          ` : service.fees ? `
+            <div>
+              <h2 style="font-size:var(--text-xl);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-2)">
+                <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--color-primary)">payments</span>
+                <span data-i18n="feeDetails">${t('feeDetails')}</span>
+              </h2>
+              <div class="info-box info-box--info">
+                <span class="material-symbols-rounded" aria-hidden="true">info</span>
+                <span>${lang === 'ne' ? service.fees.ne : service.fees.en}</span>
+              </div>
+            </div>
           ` : ''}
 
           <!-- Processing Time -->
-          ${serviceProcessing ? `
+          ${service.processing && (service.processing.standardDays || service.processing.expressDays || service.processing.maxDays) ? `
             <div>
               <h2 style="font-size:var(--text-xl);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-2)">
                 <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--color-primary)">schedule</span>
                 <span data-i18n="processingTime">${t('processingTime')}</span>
               </h2>
               <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:var(--space-4)">
-                <div class="card" style="text-align:center;padding:var(--space-4)">
-                  <div style="font-size:var(--text-3xl);font-weight:var(--weight-bold);color:var(--color-primary)">${serviceProcessing.standardDays}</div>
-                  <div style="font-size:var(--text-sm);color:var(--text-secondary)">${t('standardDays')}</div>
-                </div>
-                ${serviceProcessing.expressDays ? `
+                ${service.processing.standardDays ? `
                   <div class="card" style="text-align:center;padding:var(--space-4)">
-                    <div style="font-size:var(--text-3xl);font-weight:var(--weight-bold);color:var(--color-accent)">${serviceProcessing.expressDays}</div>
+                    <div style="font-size:var(--text-3xl);font-weight:var(--weight-bold);color:var(--color-primary)">${service.processing.standardDays}</div>
+                    <div style="font-size:var(--text-sm);color:var(--text-secondary)">${t('standardDays')}</div>
+                  </div>
+                ` : ''}
+                ${service.processing.expressDays ? `
+                  <div class="card" style="text-align:center;padding:var(--space-4)">
+                    <div style="font-size:var(--text-3xl);font-weight:var(--weight-bold);color:var(--color-accent)">${service.processing.expressDays}</div>
                     <div style="font-size:var(--text-sm);color:var(--text-secondary)">${t('expressDays')}</div>
                   </div>
                 ` : ''}
-                ${serviceProcessing.maxDays ? `
+                ${service.processing.maxDays ? `
                   <div class="card" style="text-align:center;padding:var(--space-4)">
-                    <div style="font-size:var(--text-3xl);font-weight:var(--weight-bold);color:var(--text-secondary)">${serviceProcessing.maxDays}</div>
+                    <div style="font-size:var(--text-3xl);font-weight:var(--weight-bold);color:var(--text-secondary)">${service.processing.maxDays}</div>
                     <div style="font-size:var(--text-sm);color:var(--text-secondary)">${t('maxDays')}</div>
+                  </div>
+                ` : ''}
+                ${(service.processing.note?.en || service.processing.note?.ne) ? `
+                  <div class="card" style="text-align:center;padding:var(--space-4);grid-column:1/-1">
+                    <div style="font-size:var(--text-sm);color:var(--text-secondary)">${lang === 'ne' ? (service.processing.note.ne || service.processing.note.en) : service.processing.note.en}</div>
                   </div>
                 ` : ''}
               </div>
@@ -303,20 +325,101 @@ export async function render({ params, container }) {
             </div>
           ` : ''}
 
-          <!-- Where to Apply -->
+          <!-- Tips -->
+          ${service.tips?.length ? `
+            <div>
+              <h2 style="font-size:var(--text-xl);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-2)">
+                <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--color-accent)">lightbulb</span>
+                <span data-i18n="tips">${t('tips')}</span>
+              </h2>
+              <div class="info-box info-box--success">
+                <span class="material-symbols-rounded" aria-hidden="true">info</span>
+                <div>
+                  <ul style="list-style:disc;padding-left:var(--space-4);margin:0">
+                    ${service.tips.map(tip => `
+                      <li style="margin-bottom:var(--space-2)">${lang === 'ne' ? (tip?.ne || tip?.en) : tip?.en}</li>
+                    `).join('')}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Important Information -->
+          ${service.importantInfo && (service.importantInfo.en || service.importantInfo.ne) ? `
+            <div>
+              <h2 style="font-size:var(--text-xl);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-2)">
+                <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--color-primary)">priority_high</span>
+                <span data-i18n="importantInfo">${t('importantInfo')}</span>
+              </h2>
+              <div class="info-box info-box--info">
+                <span class="material-symbols-rounded" aria-hidden="true">info</span>
+                <div>${lang === 'ne' ? (service.importantInfo.ne || service.importantInfo.en) : service.importantInfo.en}</div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Where to Apply (data-driven from editor) -->
           <div>
             <h2 style="font-size:var(--text-xl);margin-bottom:var(--space-4);display:flex;align-items:center;gap:var(--space-2)">
               <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--color-primary)">location_on</span>
               <span>${service.id === 'citizenship-by-birth' ? (lang === 'ne' ? 'कहाँ परामर्श लिने' : 'Where to Consult') : t('whereToApply')}</span>
             </h2>
 
-            <!-- DAO Selector for citizenship/NID/passport -->
-            ${['citizenship-by-descent','citizenship-by-birth','citizenship-naturalized','citizenship-nrn','citizenship-honorary','citizenship-duplicate','naturalized-marriage','naturalized-child','naturalized-parents-child','national-id','passport','passport-replacement'].includes(service.id) ? `
+            <!-- DAO Selector: shown when application type targets DAO offices -->
+            ${(wtaType === 'dao_office' || wtaType === 'multiple_offices' || wtaType === 'online' || wtaType === 'government_office') && ['citizenship-by-descent','citizenship-by-birth','citizenship-naturalized','citizenship-nrn','citizenship-honorary','citizenship-duplicate','naturalized-marriage','naturalized-child','naturalized-parents-child','national-id','passport','passport-replacement'].includes(service.id) ? `
               <div id="dao-selector-container"></div>
             ` : ''}
 
-            <!-- Office list for other services -->
-            ${!['citizenship-by-descent','citizenship-by-birth','citizenship-naturalized','citizenship-nrn','citizenship-honorary','citizenship-duplicate','naturalized-marriage','naturalized-child','naturalized-parents-child','national-id','passport','passport-replacement'].includes(service.id) && serviceOffices.length > 0 ? `
+            <!-- Specific DAO office (application_type = dao_office, scope = specific_dao) -->
+            ${wtaType === 'dao_office' && wtaScope === 'specific_dao' && whereToApply.daoOfficeId ? (() => {
+              const dao = (daoOffices || []).find(d => d.id === whereToApply.daoOfficeId);
+              if (!dao) return '';
+              return `
+                <div style="display:flex;flex-direction:column;gap:var(--space-3)">
+                  <div class="card" style="padding:var(--space-4)">
+                    <div style="display:flex;align-items:flex-start;gap:var(--space-3)">
+                      <span class="material-symbols-rounded" aria-hidden="true" style="color:var(--text-tertiary);margin-top:2px">apartment</span>
+                      <div style="flex:1">
+                        <div style="font-weight:var(--weight-semibold);margin-bottom:var(--space-1)">${lang === 'ne' ? (dao.name?.ne || dao.name?.en) : dao.name?.en}</div>
+                        <div style="font-size:var(--text-sm);color:var(--text-secondary)">${dao.district ? dao.district + (dao.province ? ' • ' + dao.province : '') : (dao.province || '')}</div>
+                        ${dao.phone ? `<div style="font-size:var(--text-sm);color:var(--text-secondary);margin-top:var(--space-1)"><span class="material-symbols-rounded" style="font-size:14px;vertical-align:middle">call</span> ${dao.phone}</div>` : ''}
+                      </div>
+                      ${dao.mapUrl ? `<a href="${dao.mapUrl}" class="btn btn--ghost btn--sm" target="_blank" rel="noopener" aria-label="${t('viewOnMap')}"><span class="material-symbols-rounded" aria-hidden="true" style="font-size:16px">map</span> ${t('map')}</a>` : ''}
+                    </div>
+                  </div>
+                </div>`;
+            })() : ''}
+
+            <!-- Ward / Municipality / Department / Government office referenced by id -->
+            ${(() => {
+              if (wtaType === 'ward_office' || wtaType === 'municipality') {
+                return `<div class="info-box info-box--info"><span class="material-symbols-rounded" aria-hidden="true">location_city</span><div>${lang === 'ne' ? 'आफ्नो स्थानीय वडा / नगरपालिका कार्यालयमा आवेदन दिनुहोस्।' : 'Apply at your local ward / municipality office.'}</div></div>`;
+              }
+              if (wtaType === 'department' && whereToApply.departmentId) {
+                const d = (departments || []).find(x => x.id === whereToApply.departmentId);
+                if (d) return `<div class="card" style="padding:var(--space-4)"><div style="font-weight:var(--weight-semibold)">${lang === 'ne' ? (d.name?.ne || d.name?.en) : d.name?.en}</div>${d.website ? `<div style="font-size:var(--text-sm);margin-top:var(--space-1)"><a href="${d.website}" target="_blank" rel="noopener">${d.website}</a></div>` : ''}</div>`;
+              }
+              if ((wtaType === 'government_office') && whereToApply.officeId) {
+                const o = (offices || []).find(x => x.id === whereToApply.officeId);
+                if (o) return `<div class="card" style="padding:var(--space-4)"><div style="font-weight:var(--weight-semibold)">${lang === 'ne' ? (o.name?.ne || o.name?.en) : o.name?.en}</div><div style="font-size:var(--text-sm);color:var(--text-secondary)">${lang === 'ne' ? (o.address?.ne || o.address?.en || '') : (o.address?.en || '')}</div></div>`;
+              }
+              return '';
+            })()}
+
+            <!-- Custom location -->
+            ${wtaType === 'custom' && (whereToApply.custom?.name?.en || whereToApply.custom?.name?.ne) ? `
+              <div class="card" style="padding:var(--space-4)">
+                <div style="font-weight:var(--weight-semibold);margin-bottom:var(--space-2)">${lang === 'ne' ? (whereToApply.custom.name.ne || whereToApply.custom.name.en) : (whereToApply.custom.name.en || '')}</div>
+                ${whereToApply.custom.address?.en || whereToApply.custom.address?.ne ? `<div style="font-size:var(--text-sm);color:var(--text-secondary)">${lang === 'ne' ? (whereToApply.custom.address.ne || whereToApply.custom.address.en) : (whereToApply.custom.address.en || '')}</div>` : ''}
+                ${whereToApply.custom.phone ? `<div style="font-size:var(--text-sm);color:var(--text-secondary);margin-top:var(--space-1)"><span class="material-symbols-rounded" style="font-size:14px;vertical-align:middle">call</span> ${whereToApply.custom.phone}</div>` : ''}
+                ${whereToApply.custom.email ? `<div style="font-size:var(--text-sm);color:var(--text-secondary)"><span class="material-symbols-rounded" style="font-size:14px;vertical-align:middle">mail</span> ${whereToApply.custom.email}</div>` : ''}
+                ${whereToApply.custom.website ? `<div style="font-size:var(--text-sm);margin-top:var(--space-1)"><a href="${whereToApply.custom.website}" target="_blank" rel="noopener">${whereToApply.custom.website}</a></div>` : ''}
+              </div>
+            ` : ''}
+
+            <!-- Fallback: office list for other services (no specific selection in editor) -->
+            ${(!['citizenship-by-descent','citizenship-by-birth','citizenship-naturalized','citizenship-nrn','citizenship-honorary','citizenship-duplicate','naturalized-marriage','naturalized-child','naturalized-parents-child','national-id','passport','passport-replacement'].includes(service.id)) && serviceOffices.length > 0 && wtaType !== 'custom' ? `
               <div style="display:flex;flex-direction:column;gap:var(--space-3)">
                 ${serviceOffices.slice(0, 5).map(office => `
                   <div class="card" style="padding:var(--space-4)">
@@ -378,11 +481,13 @@ export async function render({ params, container }) {
             </div>
           ` : ''}
 
-          <!-- Info Box: Disclaimer -->
+          <!-- Info Box: Disclaimer (editor-controlled with fallback) -->
           <div class="info-box info-box--info">
             <span class="material-symbols-rounded" aria-hidden="true">info</span>
-            <div data-i18n="serviceDisclaimer">
-              ${t('serviceDisclaimer')}
+            <div>
+              ${service.disclaimer && (service.disclaimer.en || service.disclaimer.ne)
+                ? (lang === 'ne' ? (service.disclaimer.ne || service.disclaimer.en) : service.disclaimer.en)
+                : t('serviceDisclaimer')}
             </div>
           </div>
 
