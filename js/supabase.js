@@ -156,6 +156,7 @@ class PostgrestQuery {
   constructor(table) {
     this._table = table;
     this._filters = [];
+    this._or = null;
     this._select = '*';
     this._order = null;
     this._limit = null;
@@ -167,16 +168,23 @@ class PostgrestQuery {
   }
 
   select(cols) { this._select = cols || '*'; return this; }
-  eq(col, val) { this._filters.push(`${col}=eq.${_enc(val)}`); return this; }
-  neq(col, val) { this._filters.push(`${col}=neq.${_enc(val)}`); return this; }
-  gt(col, val) { this._filters.push(`${col}=gt.${_enc(val)}`); return this; }
-  gte(col, val) { this._filters.push(`${col}=gte.${_enc(val)}`); return this; }
-  lt(col, val) { this._filters.push(`${col}=lt.${_enc(val)}`); return this; }
-  lte(col, val) { this._filters.push(`${col}=lte.${_enc(val)}`); return this; }
-  like(col, val) { this._filters.push(`${col}=like.${_enc(val)}`); return this; }
-  ilike(col, val) { this._filters.push(`${col}=ilike.${_enc(val)}`); return this; }
-  in(col, vals) { this._filters.push(`${col}=in.(${vals.map(v => _enc(v)).join(',')})`); return this; }
+  // IMPORTANT: filter values are stored RAW and encoded exactly once by
+  // URLSearchParams in _execute(). Pre-encoding here (e.g. with _enc) caused
+  // double-encoding: `%25passport%25` became `%2525passport%2525` and PostgREST
+  // matched the literal text "25passport" — so ilike search returned nothing.
+  eq(col, val) { this._filters.push(`${col}=eq.${val}`); return this; }
+  neq(col, val) { this._filters.push(`${col}=neq.${val}`); return this; }
+  gt(col, val) { this._filters.push(`${col}=gt.${val}`); return this; }
+  gte(col, val) { this._filters.push(`${col}=gte.${val}`); return this; }
+  lt(col, val) { this._filters.push(`${col}=lt.${val}`); return this; }
+  lte(col, val) { this._filters.push(`${col}=lte.${val}`); return this; }
+  like(col, val) { this._filters.push(`${col}=like.${val}`); return this; }
+  ilike(col, val) { this._filters.push(`${col}=ilike.${val}`); return this; }
+  in(col, vals) { this._filters.push(`${col}=in.(${vals.join(',')})`); return this; }
   is(col, val) { this._filters.push(`${col}=is.${val}`); return this; }
+  // PostgREST OR: or=(col1.op.val,col2.op.val) — matches rows where ANY
+  // condition holds. Raw (unencoded) — URLSearchParams encodes it once.
+  or(filters) { this._or = filters; return this; }
   order(col, opts = {}) { this._order = `${col}.${opts.ascending === false ? 'desc' : 'asc'}`; return this; }
   limit(n) { this._limit = n; return this; }
   range(from, to) { this._offset = from; this._limit = to - from + 1; return this; }
@@ -220,6 +228,7 @@ class PostgrestQuery {
         const val = f.slice(idx + 1);
         params.append(col, val);
       });
+      if (this._or) params.set('or', this._or);
     }
     if (this._onConflict) params.set('on_conflict', this._onConflict);
 
@@ -285,13 +294,6 @@ class PostgrestQuery {
 
     return { data, error: null, count: total };
   }
-}
-
-function _enc(v) {
-  if (v == null) return '';
-  if (typeof v === 'string') return encodeURIComponent(v);
-  if (typeof v === 'boolean') return v ? 'true' : 'false';
-  return String(v);
 }
 
 // ── Public API ─────────────────────────────────────────────

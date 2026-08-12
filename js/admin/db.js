@@ -7,14 +7,19 @@ export { from };
 export async function list(table, { search, searchFields, status, order = 'updated_at.desc', limit = 50, offset = 0 } = {}) {
   let q = from(table).select('*');
   if (search && searchFields?.length) {
-    // Postgrest ilike with OR: (field1.ilike.*search*).or.(field2.ilike.*search*)
-    // Our client supports single ilike — build OR manually for multiple fields
-    if (searchFields.length === 1) {
-      q = q.ilike(searchFields[0], `%${search}%`);
-    } else {
-      // Use first field for basic filter; we'll client-side filter rest
-      // (Postgrest OR is complex; for small datasets this is fine)
-      q = q.ilike(searchFields[0], `%${search}%`);
+    // Sanitize the term so special characters can't break the or=(...) syntax
+    // or act as unintended wildcards. Parens/commas would be parsed as
+    // structure by PostgREST; % and _ are ILIKE wildcards.
+    const term = String(search).replace(/[(),%_]/g, ' ').trim();
+    if (term) {
+      if (searchFields.length === 1) {
+        q = q.ilike(searchFields[0], `%${term}%`);
+      } else {
+        // PostgREST OR across ALL search fields — otherwise a record matching
+        // only the 2nd+ field (e.g. Nepali name) never reaches the client.
+        // PostgREST requires parens around multi-condition OR: or=(a,b).
+        q = q.or(`(${searchFields.map(f => `${f}.ilike.%${term}%`).join(',')})`);
+      }
     }
   }
   if (status) q = q.eq('status', status);
@@ -29,15 +34,8 @@ export async function list(table, { search, searchFields, status, order = 'updat
   const { data, error, count: total } = await q.count('exact');
   if (error) throw error;
 
-  // Client-side multi-field search
-  let results = data || [];
-  if (search && searchFields?.length > 1) {
-    const term = search.toLowerCase();
-    results = results.filter(row =>
-      searchFields.some(f => String(row[f] || '').toLowerCase().includes(term))
-    );
-  }
-  return { data: results, total };
+  // No client-side re-filter needed: the server OR already matches any field.
+  return { data: data || [], total };
 }
 
 export async function get(table, id) {
