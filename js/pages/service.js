@@ -8,7 +8,6 @@ import { t, getLang } from '../i18n.js';
 import { formatDate, showToast, copyToClipboard } from '../utils/dom.js';
 import { categoryLabel } from '../utils/categories.js';
 import { renderDAOSelector, bindDAOSelector, init as initDAO } from '../components/dao-selector.js';
-import { loadJSON } from '../utils/api.js';
 
 let cleanup = [];
 
