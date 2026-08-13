@@ -85,8 +85,8 @@ async function boot() {
   // 10. Re-render current page when language changes
   onLangChange(() => Router.resolve());
 
-  // 11. Register service worker
-  registerServiceWorker();
+  // 11. Clean up old service worker (one-time)
+  await cleanupServiceWorker();
 }
 
 /* ============================================================
@@ -298,26 +298,22 @@ function renderA11ySettings(body) {
 }
 
 /* ============================================================
-   Service Worker
+   Service Worker Cleanup (one-time unregistration for existing users)
    ============================================================ */
 
-function registerServiceWorker() {
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js').then(() => {
-        // When a new service worker takes control (new deployment), reload the
-        // page once so users automatically get the latest code — no manual
-        // cache clearing needed. Skipped on first install (no controller yet).
-        if (!navigator.serviceWorker.controller) return;
-        let refreshing = false;
-        navigator.serviceWorker.addEventListener('controllerchange', () => {
-          if (refreshing) return;
-          refreshing = true;
-          window.location.reload();
-        });
-      }).catch(() => {});
-    });
-  }
+async function cleanupServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  try {
+    const registrations = await navigator.serviceWorker.getRegistrations();
+    for (const reg of registrations) {
+      await reg.unregister();
+    }
+    // Clear any caches created by the old service worker
+    if ('caches' in window) {
+      const cacheNames = await caches.keys();
+      await Promise.all(cacheNames.map(name => caches.delete(name)));
+    }
+  } catch { /* ignore cleanup errors */ }
 }
 
 /* ============================================================

@@ -13,7 +13,6 @@ An independent informational platform helping Nepali citizens understand governm
 - Official form download links
 - Office directory with map links and best visiting times
 - English + Nepali language support
-- Offline-ready Progressive Web App (PWA)
 - Bookmarks and recent page history
 - Print and PDF export for checklists
 - Share guides by URL
@@ -25,8 +24,6 @@ An independent informational platform helping Nepali citizens understand governm
 ```
 merokagaj/
 ├── index.html              # Single-page app entry point
-├── manifest.json           # PWA manifest
-├── sw.js                   # Service worker (offline support)
 ├── favicon.svg             # Site icon
 ├── README.md               # This file
 │
@@ -82,7 +79,7 @@ merokagaj/
 │       └── ne.json         # Nepali UI strings
 │
 └── assets/
-    └── icons/              # PWA icons (192x192, 512x512)
+    └── icons/              # App icons
 ```
 
 ## Editing Services
